@@ -7,4 +7,6 @@ add_char_span设置为True方便添加char_span<br>
 在preprocess路径下运行BuildData.py生成数据，结果放置在data4bert/baidu_relation下<br>
 在tplinker/train_config.yaml配置相应的文件<br>
 接下来只需运行tplinker下的train.py即可运行。<br>
+详解说明https://zhuanlan.zhihu.com/p/342300800<br>
 最近因为工作原因，在搞模型压缩跟联邦学习，等到空闲了把细节补上。感谢~<br>
+

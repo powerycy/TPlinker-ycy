@@ -1,0 +1,1 @@
+{"train_loss": 0.0020592417804696107, "train_ent_seq_acc": 0.9939601122483909, "train_head_rel_acc": 0.9032478615259513, "train_tail_rel_acc": 0.9290028472147097, "learning_rate": 4.71862011297758e-05, "time": 403.02607321739197, "_step": 35, "_runtime": 478, "_timestamp": 1612345550}

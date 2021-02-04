@@ -1,0 +1,15 @@
+{
+    "relation_type_num": 24,
+    "entity_type_num": 1,
+    "train_data": 56195,
+    "valid_data": 4999,
+    "test_triples": 5000,
+    "test_triples_3": 312,
+    "test_triples_5": 108,
+    "test_triples_1": 3244,
+    "test_triples_2": 1045,
+    "test_triples_4": 291,
+    "test_triples_seo": 1297,
+    "test_triples_normal": 3266,
+    "test_triples_epo": 978
+}

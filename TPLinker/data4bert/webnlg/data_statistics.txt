@@ -1,0 +1,7 @@
+{
+    "relation_type_num": 216,
+    "entity_type_num": 1,
+    "train_data": 5019,
+    "valid_data": 500,
+    "test": 703
+}

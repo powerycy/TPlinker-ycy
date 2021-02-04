@@ -1,0 +1,868 @@
+2021-02-03 17:37:53,880 INFO    MainThread:25130 [internal.py:wandb_internal():63] W&B internal server running at pid: 25130
+2021-02-03 17:37:53,884 DEBUG   HandlerThread:25130 [handler.py:handle_request():55] handle_request: check_version
+2021-02-03 17:37:53,884 INFO    WriterThread:25130 [datastore.py:open_for_write():76] open: /home/yuanchaoyi/TPlinker-joint-extraction/wandb/run-20210203_173752-2rkucosd/run-2rkucosd.wandb
+2021-02-03 17:37:53,887 DEBUG   SenderThread:25130 [sender.py:send():90] send: header
+2021-02-03 17:37:53,898 DEBUG   SenderThread:25130 [sender.py:send():90] send: request
+2021-02-03 17:37:53,898 DEBUG   SenderThread:25130 [sender.py:send_request():99] send_request: check_version
+2021-02-03 17:37:53,902 DEBUG   Thread-4  :25130 [connectionpool.py:_new_conn():975] Starting new HTTPS connection (1): pypi.org:443
+2021-02-03 17:37:54,129 DEBUG   Thread-4  :25130 [connectionpool.py:_make_request():461] https://pypi.org:443 "GET /pypi/wandb/json HTTP/1.1" 200 53641
+2021-02-03 17:37:54,417 DEBUG   SenderThread:25130 [sender.py:send():90] send: run
+2021-02-03 17:37:54,454 DEBUG   SenderThread:25130 [connectionpool.py:_new_conn():975] Starting new HTTPS connection (1): api.wandb.ai:443
+2021-02-03 17:37:54,883 DEBUG   SenderThread:25130 [connectionpool.py:_make_request():461] https://api.wandb.ai:443 "POST /graphql HTTP/1.1" 200 None
+2021-02-03 17:37:54,894 INFO    SenderThread:25130 [dir_watcher.py:__init__():165] watching files in: /home/yuanchaoyi/TPlinker-joint-extraction/wandb/run-20210203_173752-2rkucosd/files
+2021-02-03 17:37:54,894 INFO    SenderThread:25130 [sender.py:_start_run_threads():490] run started: 2rkucosd with start time 1612345072
+2021-02-03 17:37:54,896 DEBUG   SenderThread:25130 [sender.py:send():90] send: summary
+2021-02-03 17:37:54,896 DEBUG   HandlerThread:25130 [handler.py:handle_request():55] handle_request: run_start
+2021-02-03 17:37:54,918 INFO    SenderThread:25130 [sender.py:_save_file():568] saving file wandb-summary.json with policy end
+2021-02-03 17:37:55,806 DEBUG   SenderThread:25130 [sender.py:send():90] send: files
+2021-02-03 17:37:55,806 INFO    SenderThread:25130 [sender.py:_save_file():568] saving file wandb-metadata.json with policy now
+2021-02-03 17:37:55,812 DEBUG   HandlerThread:25130 [handler.py:handle_request():55] handle_request: status
+2021-02-03 17:37:55,814 DEBUG   SenderThread:25130 [sender.py:send():90] send: request
+2021-02-03 17:37:55,814 DEBUG   SenderThread:25130 [sender.py:send_request():99] send_request: status
+2021-02-03 17:37:55,819 DEBUG   SenderThread:25130 [connectionpool.py:_new_conn():975] Starting new HTTPS connection (1): api.wandb.ai:443
+2021-02-03 17:37:55,825 DEBUG   Thread-11 :25130 [connectionpool.py:_new_conn():975] Starting new HTTPS connection (1): api.wandb.ai:443
+2021-02-03 17:37:55,900 INFO    Thread-8  :25130 [dir_watcher.py:_on_file_created():213] file/dir created: /home/yuanchaoyi/TPlinker-joint-extraction/wandb/run-20210203_173752-2rkucosd/files/requirements.txt
+2021-02-03 17:37:55,901 INFO    Thread-8  :25130 [dir_watcher.py:_on_file_created():213] file/dir created: /home/yuanchaoyi/TPlinker-joint-extraction/wandb/run-20210203_173752-2rkucosd/files/wandb-metadata.json
+2021-02-03 17:37:55,911 INFO    Thread-8  :25130 [dir_watcher.py:_on_file_created():213] file/dir created: /home/yuanchaoyi/TPlinker-joint-extraction/wandb/run-20210203_173752-2rkucosd/files/wandb-summary.json
+2021-02-03 17:37:55,912 INFO    Thread-8  :25130 [dir_watcher.py:_on_file_created():213] file/dir created: /home/yuanchaoyi/TPlinker-joint-extraction/wandb/run-20210203_173752-2rkucosd/files/output.log
+2021-02-03 17:37:56,251 DEBUG   SenderThread:25130 [connectionpool.py:_make_request():461] https://api.wandb.ai:443 "POST /graphql HTTP/1.1" 200 None
+2021-02-03 17:37:56,254 DEBUG   SenderThread:25130 [sender.py:send():90] send: config
+2021-02-03 17:37:56,270 DEBUG   SenderThread:25130 [connectionpool.py:_new_conn():975] Starting new HTTPS connection (1): api.wandb.ai:443
+2021-02-03 17:37:56,273 DEBUG   Thread-11 :25130 [connectionpool.py:_make_request():461] https://api.wandb.ai:443 "POST /graphql HTTP/1.1" 200 None
+2021-02-03 17:37:56,282 DEBUG   Thread-11 :25130 [connectionpool.py:_new_conn():975] Starting new HTTPS connection (1): storage.googleapis.com:443
+2021-02-03 17:37:56,696 DEBUG   SenderThread:25130 [connectionpool.py:_make_request():461] https://api.wandb.ai:443 "POST /graphql HTTP/1.1" 200 None
+2021-02-03 17:37:56,896 INFO    Thread-8  :25130 [dir_watcher.py:_on_file_modified():226] file/dir modified: /home/yuanchaoyi/TPlinker-joint-extraction/wandb/run-20210203_173752-2rkucosd/files/config.yaml
+2021-02-03 17:37:56,900 DEBUG   Thread-5  :25130 [connectionpool.py:_new_conn():975] Starting new HTTPS connection (1): api.wandb.ai:443
+2021-02-03 17:37:57,309 DEBUG   Thread-5  :25130 [connectionpool.py:_make_request():461] https://api.wandb.ai:443 "POST /files/yuanchaoyi/baidu_relation/2rkucosd/file_stream HTTP/1.1" 200 None
+2021-02-03 17:37:58,121 DEBUG   Thread-11 :25130 [connectionpool.py:_make_request():461] https://storage.googleapis.com:443 "PUT /wandb-production.appspot.com/yuanchaoyi/baidu_relation/2rkucosd/wandb-metadata.json?Expires=1612431571&GoogleAccessId=wandb-production%40appspot.gserviceaccount.com&Signature=EDW1kdMGRxDUW9BVxJULCDk4pxXk5HsWCm3cLd%2FPX4D4uBaIqQu%2FS2bWzGtLZcQX6u%2BOZdKa%2FOoL2KqOwOR%2Fcm14uN4vqiTh7RHFRQc6Ve%2BdLdecrfYCSUvoHzSHE4B68RZOi6lG5SI%2BD%2FgGyNFDC9N%2B%2BizL3uIJCNbZB6ZdoEnjx2JAWHRTXYII3WXf3mCI5%2Fl3qUWBPjFDJBAOf35XeVjg%2BV3bDqkaEV3Q%2BtBxwcpeo%2BEeelWCslxf56UUe%2F79mpERkDxbvZezQekU3bixyFi4Qde1dtUMgsXVNUaWV6z7zEm%2Bsh0YW73QTtik%2BHYbhxO1JbJHq9MhxOEkEPRPkQ%3D%3D HTTP/1.1" 200 0
+2021-02-03 17:37:58,123 INFO    Thread-11 :25130 [upload_job.py:push():131] Uploaded file /tmp/tmpe0mbrb4pwandb/3rv7sifu-wandb-metadata.json
+2021-02-03 17:38:00,263 DEBUG   SenderThread:25130 [sender.py:send():90] send: stats
+2021-02-03 17:38:00,529 DEBUG   Thread-5  :25130 [connectionpool.py:_make_request():461] https://api.wandb.ai:443 "POST /files/yuanchaoyi/baidu_relation/2rkucosd/file_stream HTTP/1.1" 200 None
+2021-02-03 17:38:05,621 DEBUG   SenderThread:25130 [sender.py:send():90] send: stats
+2021-02-03 17:38:05,882 DEBUG   Thread-5  :25130 [connectionpool.py:_make_request():461] https://api.wandb.ai:443 "POST /files/yuanchaoyi/baidu_relation/2rkucosd/file_stream HTTP/1.1" 200 None
+2021-02-03 17:38:06,907 INFO    Thread-8  :25130 [dir_watcher.py:_on_file_modified():226] file/dir modified: /home/yuanchaoyi/TPlinker-joint-extraction/wandb/run-20210203_173752-2rkucosd/files/output.log
+2021-02-03 17:38:07,910 INFO    Thread-8  :25130 [dir_watcher.py:_on_file_modified():226] file/dir modified: /home/yuanchaoyi/TPlinker-joint-extraction/wandb/run-20210203_173752-2rkucosd/files/output.log
+2021-02-03 17:38:08,911 INFO    Thread-8  :25130 [dir_watcher.py:_on_file_modified():226] file/dir modified: /home/yuanchaoyi/TPlinker-joint-extraction/wandb/run-20210203_173752-2rkucosd/files/output.log
+2021-02-03 17:38:09,912 INFO    Thread-8  :25130 [dir_watcher.py:_on_file_modified():226] file/dir modified: /home/yuanchaoyi/TPlinker-joint-extraction/wandb/run-20210203_173752-2rkucosd/files/output.log
+2021-02-03 17:38:10,913 INFO    Thread-8  :25130 [dir_watcher.py:_on_file_modified():226] file/dir modified: /home/yuanchaoyi/TPlinker-joint-extraction/wandb/run-20210203_173752-2rkucosd/files/output.log
+2021-02-03 17:38:11,149 DEBUG   SenderThread:25130 [sender.py:send():90] send: stats
+2021-02-03 17:38:11,407 DEBUG   Thread-5  :25130 [connectionpool.py:_make_request():461] https://api.wandb.ai:443 "POST /files/yuanchaoyi/baidu_relation/2rkucosd/file_stream HTTP/1.1" 200 None
+2021-02-03 17:38:11,412 DEBUG   HandlerThread:25130 [handler.py:handle_request():55] handle_request: status
+2021-02-03 17:38:11,413 DEBUG   SenderThread:25130 [sender.py:send():90] send: request
+2021-02-03 17:38:11,415 DEBUG   SenderThread:25130 [sender.py:send_request():99] send_request: status
+2021-02-03 17:38:11,422 DEBUG   SenderThread:25130 [connectionpool.py:_new_conn():975] Starting new HTTPS connection (1): api.wandb.ai:443
+2021-02-03 17:38:11,835 DEBUG   SenderThread:25130 [connectionpool.py:_make_request():461] https://api.wandb.ai:443 "POST /graphql HTTP/1.1" 200 None
+2021-02-03 17:38:11,913 INFO    Thread-8  :25130 [dir_watcher.py:_on_file_modified():226] file/dir modified: /home/yuanchaoyi/TPlinker-joint-extraction/wandb/run-20210203_173752-2rkucosd/files/output.log
+2021-02-03 17:38:12,914 INFO    Thread-8  :25130 [dir_watcher.py:_on_file_modified():226] file/dir modified: /home/yuanchaoyi/TPlinker-joint-extraction/wandb/run-20210203_173752-2rkucosd/files/output.log
+2021-02-03 17:38:13,915 INFO    Thread-8  :25130 [dir_watcher.py:_on_file_modified():226] file/dir modified: /home/yuanchaoyi/TPlinker-joint-extraction/wandb/run-20210203_173752-2rkucosd/files/output.log
+2021-02-03 17:38:14,916 INFO    Thread-8  :25130 [dir_watcher.py:_on_file_modified():226] file/dir modified: /home/yuanchaoyi/TPlinker-joint-extraction/wandb/run-20210203_173752-2rkucosd/files/output.log
+2021-02-03 17:38:15,916 INFO    Thread-8  :25130 [dir_watcher.py:_on_file_modified():226] file/dir modified: /home/yuanchaoyi/TPlinker-joint-extraction/wandb/run-20210203_173752-2rkucosd/files/output.log
+2021-02-03 17:38:16,606 DEBUG   SenderThread:25130 [sender.py:send():90] send: stats
+2021-02-03 17:38:16,855 DEBUG   Thread-5  :25130 [connectionpool.py:_make_request():461] https://api.wandb.ai:443 "POST /files/yuanchaoyi/baidu_relation/2rkucosd/file_stream HTTP/1.1" 200 None
+2021-02-03 17:38:16,917 INFO    Thread-8  :25130 [dir_watcher.py:_on_file_modified():226] file/dir modified: /home/yuanchaoyi/TPlinker-joint-extraction/wandb/run-20210203_173752-2rkucosd/files/output.log
+2021-02-03 17:38:17,919 INFO    Thread-8  :25130 [dir_watcher.py:_on_file_modified():226] file/dir modified: /home/yuanchaoyi/TPlinker-joint-extraction/wandb/run-20210203_173752-2rkucosd/files/output.log
+2021-02-03 17:38:18,919 INFO    Thread-8  :25130 [dir_watcher.py:_on_file_modified():226] file/dir modified: /home/yuanchaoyi/TPlinker-joint-extraction/wandb/run-20210203_173752-2rkucosd/files/output.log
+2021-02-03 17:38:19,920 INFO    Thread-8  :25130 [dir_watcher.py:_on_file_modified():226] file/dir modified: /home/yuanchaoyi/TPlinker-joint-extraction/wandb/run-20210203_173752-2rkucosd/files/output.log
+2021-02-03 17:38:19,988 DEBUG   Thread-5  :25130 [connectionpool.py:_make_request():461] https://api.wandb.ai:443 "POST /files/yuanchaoyi/baidu_relation/2rkucosd/file_stream HTTP/1.1" 200 None
+2021-02-03 17:38:20,921 INFO    Thread-8  :25130 [dir_watcher.py:_on_file_modified():226] file/dir modified: /home/yuanchaoyi/TPlinker-joint-extraction/wandb/run-20210203_173752-2rkucosd/files/output.log
+2021-02-03 17:38:21,924 INFO    Thread-8  :25130 [dir_watcher.py:_on_file_modified():226] file/dir modified: /home/yuanchaoyi/TPlinker-joint-extraction/wandb/run-20210203_173752-2rkucosd/files/output.log
+2021-02-03 17:38:22,129 DEBUG   SenderThread:25130 [sender.py:send():90] send: stats
+2021-02-03 17:38:22,392 DEBUG   Thread-5  :25130 [connectionpool.py:_make_request():461] https://api.wandb.ai:443 "POST /files/yuanchaoyi/baidu_relation/2rkucosd/file_stream HTTP/1.1" 200 None
+2021-02-03 17:38:22,924 INFO    Thread-8  :25130 [dir_watcher.py:_on_file_modified():226] file/dir modified: /home/yuanchaoyi/TPlinker-joint-extraction/wandb/run-20210203_173752-2rkucosd/files/output.log
+2021-02-03 17:38:23,926 INFO    Thread-8  :25130 [dir_watcher.py:_on_file_modified():226] file/dir modified: /home/yuanchaoyi/TPlinker-joint-extraction/wandb/run-20210203_173752-2rkucosd/files/output.log
+2021-02-03 17:38:24,926 INFO    Thread-8  :25130 [dir_watcher.py:_on_file_modified():226] file/dir modified: /home/yuanchaoyi/TPlinker-joint-extraction/wandb/run-20210203_173752-2rkucosd/files/output.log
+2021-02-03 17:38:25,927 INFO    Thread-8  :25130 [dir_watcher.py:_on_file_modified():226] file/dir modified: /home/yuanchaoyi/TPlinker-joint-extraction/wandb/run-20210203_173752-2rkucosd/files/output.log
+2021-02-03 17:38:26,892 DEBUG   HandlerThread:25130 [handler.py:handle_request():55] handle_request: status
+2021-02-03 17:38:26,893 DEBUG   SenderThread:25130 [sender.py:send():90] send: request
+2021-02-03 17:38:26,895 DEBUG   SenderThread:25130 [sender.py:send_request():99] send_request: status
+2021-02-03 17:38:26,903 DEBUG   SenderThread:25130 [connectionpool.py:_new_conn():975] Starting new HTTPS connection (1): api.wandb.ai:443
+2021-02-03 17:38:26,928 INFO    Thread-8  :25130 [dir_watcher.py:_on_file_modified():226] file/dir modified: /home/yuanchaoyi/TPlinker-joint-extraction/wandb/run-20210203_173752-2rkucosd/files/output.log
+2021-02-03 17:38:27,329 DEBUG   SenderThread:25130 [connectionpool.py:_make_request():461] https://api.wandb.ai:443 "POST /graphql HTTP/1.1" 200 None
+2021-02-03 17:38:27,606 DEBUG   SenderThread:25130 [sender.py:send():90] send: stats
+2021-02-03 17:38:27,874 DEBUG   Thread-5  :25130 [connectionpool.py:_make_request():461] https://api.wandb.ai:443 "POST /files/yuanchaoyi/baidu_relation/2rkucosd/file_stream HTTP/1.1" 200 None
+2021-02-03 17:38:27,928 INFO    Thread-8  :25130 [dir_watcher.py:_on_file_modified():226] file/dir modified: /home/yuanchaoyi/TPlinker-joint-extraction/wandb/run-20210203_173752-2rkucosd/files/output.log
+2021-02-03 17:38:28,930 INFO    Thread-8  :25130 [dir_watcher.py:_on_file_modified():226] file/dir modified: /home/yuanchaoyi/TPlinker-joint-extraction/wandb/run-20210203_173752-2rkucosd/files/output.log
+2021-02-03 17:38:29,931 INFO    Thread-8  :25130 [dir_watcher.py:_on_file_modified():226] file/dir modified: /home/yuanchaoyi/TPlinker-joint-extraction/wandb/run-20210203_173752-2rkucosd/files/output.log
+2021-02-03 17:38:30,027 DEBUG   Thread-5  :25130 [connectionpool.py:_make_request():461] https://api.wandb.ai:443 "POST /files/yuanchaoyi/baidu_relation/2rkucosd/file_stream HTTP/1.1" 200 None
+2021-02-03 17:38:30,934 INFO    Thread-8  :25130 [dir_watcher.py:_on_file_modified():226] file/dir modified: /home/yuanchaoyi/TPlinker-joint-extraction/wandb/run-20210203_173752-2rkucosd/files/output.log
+2021-02-03 17:38:31,934 INFO    Thread-8  :25130 [dir_watcher.py:_on_file_modified():226] file/dir modified: /home/yuanchaoyi/TPlinker-joint-extraction/wandb/run-20210203_173752-2rkucosd/files/output.log
+2021-02-03 17:38:32,435 DEBUG   Thread-5  :25130 [connectionpool.py:_make_request():461] https://api.wandb.ai:443 "POST /files/yuanchaoyi/baidu_relation/2rkucosd/file_stream HTTP/1.1" 200 None
+2021-02-03 17:38:32,935 INFO    Thread-8  :25130 [dir_watcher.py:_on_file_modified():226] file/dir modified: /home/yuanchaoyi/TPlinker-joint-extraction/wandb/run-20210203_173752-2rkucosd/files/output.log
+2021-02-03 17:38:33,118 DEBUG   SenderThread:25130 [sender.py:send():90] send: stats
+2021-02-03 17:38:33,936 INFO    Thread-8  :25130 [dir_watcher.py:_on_file_modified():226] file/dir modified: /home/yuanchaoyi/TPlinker-joint-extraction/wandb/run-20210203_173752-2rkucosd/files/output.log
+2021-02-03 17:38:34,937 INFO    Thread-8  :25130 [dir_watcher.py:_on_file_modified():226] file/dir modified: /home/yuanchaoyi/TPlinker-joint-extraction/wandb/run-20210203_173752-2rkucosd/files/output.log
+2021-02-03 17:38:35,373 DEBUG   Thread-5  :25130 [connectionpool.py:_make_request():461] https://api.wandb.ai:443 "POST /files/yuanchaoyi/baidu_relation/2rkucosd/file_stream HTTP/1.1" 200 None
+2021-02-03 17:38:35,938 INFO    Thread-8  :25130 [dir_watcher.py:_on_file_modified():226] file/dir modified: /home/yuanchaoyi/TPlinker-joint-extraction/wandb/run-20210203_173752-2rkucosd/files/output.log
+2021-02-03 17:38:36,938 INFO    Thread-8  :25130 [dir_watcher.py:_on_file_modified():226] file/dir modified: /home/yuanchaoyi/TPlinker-joint-extraction/wandb/run-20210203_173752-2rkucosd/files/output.log
+2021-02-03 17:38:37,939 INFO    Thread-8  :25130 [dir_watcher.py:_on_file_modified():226] file/dir modified: /home/yuanchaoyi/TPlinker-joint-extraction/wandb/run-20210203_173752-2rkucosd/files/output.log
+2021-02-03 17:38:38,589 DEBUG   SenderThread:25130 [sender.py:send():90] send: stats
+2021-02-03 17:38:38,845 DEBUG   Thread-5  :25130 [connectionpool.py:_make_request():461] https://api.wandb.ai:443 "POST /files/yuanchaoyi/baidu_relation/2rkucosd/file_stream HTTP/1.1" 200 None
+2021-02-03 17:38:38,940 INFO    Thread-8  :25130 [dir_watcher.py:_on_file_modified():226] file/dir modified: /home/yuanchaoyi/TPlinker-joint-extraction/wandb/run-20210203_173752-2rkucosd/files/output.log
+2021-02-03 17:38:39,941 INFO    Thread-8  :25130 [dir_watcher.py:_on_file_modified():226] file/dir modified: /home/yuanchaoyi/TPlinker-joint-extraction/wandb/run-20210203_173752-2rkucosd/files/output.log
+2021-02-03 17:38:40,942 INFO    Thread-8  :25130 [dir_watcher.py:_on_file_modified():226] file/dir modified: /home/yuanchaoyi/TPlinker-joint-extraction/wandb/run-20210203_173752-2rkucosd/files/output.log
+2021-02-03 17:38:41,943 INFO    Thread-8  :25130 [dir_watcher.py:_on_file_modified():226] file/dir modified: /home/yuanchaoyi/TPlinker-joint-extraction/wandb/run-20210203_173752-2rkucosd/files/output.log
+2021-02-03 17:38:42,361 DEBUG   HandlerThread:25130 [handler.py:handle_request():55] handle_request: status
+2021-02-03 17:38:42,362 DEBUG   SenderThread:25130 [sender.py:send():90] send: request
+2021-02-03 17:38:42,363 DEBUG   SenderThread:25130 [sender.py:send_request():99] send_request: status
+2021-02-03 17:38:42,369 DEBUG   SenderThread:25130 [connectionpool.py:_new_conn():975] Starting new HTTPS connection (1): api.wandb.ai:443
+2021-02-03 17:38:42,771 DEBUG   SenderThread:25130 [connectionpool.py:_make_request():461] https://api.wandb.ai:443 "POST /graphql HTTP/1.1" 200 None
+2021-02-03 17:38:42,943 INFO    Thread-8  :25130 [dir_watcher.py:_on_file_modified():226] file/dir modified: /home/yuanchaoyi/TPlinker-joint-extraction/wandb/run-20210203_173752-2rkucosd/files/output.log
+2021-02-03 17:38:43,944 INFO    Thread-8  :25130 [dir_watcher.py:_on_file_modified():226] file/dir modified: /home/yuanchaoyi/TPlinker-joint-extraction/wandb/run-20210203_173752-2rkucosd/files/output.log
+2021-02-03 17:38:44,153 DEBUG   SenderThread:25130 [sender.py:send():90] send: stats
+2021-02-03 17:38:44,416 DEBUG   Thread-5  :25130 [connectionpool.py:_make_request():461] https://api.wandb.ai:443 "POST /files/yuanchaoyi/baidu_relation/2rkucosd/file_stream HTTP/1.1" 200 None
+2021-02-03 17:38:44,945 INFO    Thread-8  :25130 [dir_watcher.py:_on_file_modified():226] file/dir modified: /home/yuanchaoyi/TPlinker-joint-extraction/wandb/run-20210203_173752-2rkucosd/files/output.log
+2021-02-03 17:38:46,065 INFO    Thread-8  :25130 [dir_watcher.py:_on_file_modified():226] file/dir modified: /home/yuanchaoyi/TPlinker-joint-extraction/wandb/run-20210203_173752-2rkucosd/files/output.log
+2021-02-03 17:38:47,065 INFO    Thread-8  :25130 [dir_watcher.py:_on_file_modified():226] file/dir modified: /home/yuanchaoyi/TPlinker-joint-extraction/wandb/run-20210203_173752-2rkucosd/files/output.log
+2021-02-03 17:38:48,066 INFO    Thread-8  :25130 [dir_watcher.py:_on_file_modified():226] file/dir modified: /home/yuanchaoyi/TPlinker-joint-extraction/wandb/run-20210203_173752-2rkucosd/files/output.log
+2021-02-03 17:38:49,067 INFO    Thread-8  :25130 [dir_watcher.py:_on_file_modified():226] file/dir modified: /home/yuanchaoyi/TPlinker-joint-extraction/wandb/run-20210203_173752-2rkucosd/files/output.log
+2021-02-03 17:38:49,617 DEBUG   SenderThread:25130 [sender.py:send():90] send: stats
+2021-02-03 17:38:49,880 DEBUG   Thread-5  :25130 [connectionpool.py:_make_request():461] https://api.wandb.ai:443 "POST /files/yuanchaoyi/baidu_relation/2rkucosd/file_stream HTTP/1.1" 200 None
+2021-02-03 17:38:50,067 INFO    Thread-8  :25130 [dir_watcher.py:_on_file_modified():226] file/dir modified: /home/yuanchaoyi/TPlinker-joint-extraction/wandb/run-20210203_173752-2rkucosd/files/output.log
+2021-02-03 17:38:51,068 INFO    Thread-8  :25130 [dir_watcher.py:_on_file_modified():226] file/dir modified: /home/yuanchaoyi/TPlinker-joint-extraction/wandb/run-20210203_173752-2rkucosd/files/output.log
+2021-02-03 17:38:52,069 INFO    Thread-8  :25130 [dir_watcher.py:_on_file_modified():226] file/dir modified: /home/yuanchaoyi/TPlinker-joint-extraction/wandb/run-20210203_173752-2rkucosd/files/output.log
+2021-02-03 17:38:53,070 INFO    Thread-8  :25130 [dir_watcher.py:_on_file_modified():226] file/dir modified: /home/yuanchaoyi/TPlinker-joint-extraction/wandb/run-20210203_173752-2rkucosd/files/output.log
+2021-02-03 17:38:54,070 INFO    Thread-8  :25130 [dir_watcher.py:_on_file_modified():226] file/dir modified: /home/yuanchaoyi/TPlinker-joint-extraction/wandb/run-20210203_173752-2rkucosd/files/output.log
+2021-02-03 17:38:55,071 INFO    Thread-8  :25130 [dir_watcher.py:_on_file_modified():226] file/dir modified: /home/yuanchaoyi/TPlinker-joint-extraction/wandb/run-20210203_173752-2rkucosd/files/output.log
+2021-02-03 17:38:55,100 DEBUG   SenderThread:25130 [sender.py:send():90] send: stats
+2021-02-03 17:38:56,072 INFO    Thread-8  :25130 [dir_watcher.py:_on_file_modified():226] file/dir modified: /home/yuanchaoyi/TPlinker-joint-extraction/wandb/run-20210203_173752-2rkucosd/files/output.log
+2021-02-03 17:38:57,073 INFO    Thread-8  :25130 [dir_watcher.py:_on_file_modified():226] file/dir modified: /home/yuanchaoyi/TPlinker-joint-extraction/wandb/run-20210203_173752-2rkucosd/files/output.log
+2021-02-03 17:38:57,795 DEBUG   HandlerThread:25130 [handler.py:handle_request():55] handle_request: status
+2021-02-03 17:38:57,796 DEBUG   SenderThread:25130 [sender.py:send():90] send: request
+2021-02-03 17:38:57,815 DEBUG   SenderThread:25130 [sender.py:send_request():99] send_request: status
+2021-02-03 17:38:57,845 DEBUG   SenderThread:25130 [connectionpool.py:_new_conn():975] Starting new HTTPS connection (1): api.wandb.ai:443
+2021-02-03 17:38:58,074 INFO    Thread-8  :25130 [dir_watcher.py:_on_file_modified():226] file/dir modified: /home/yuanchaoyi/TPlinker-joint-extraction/wandb/run-20210203_173752-2rkucosd/files/output.log
+2021-02-03 17:38:58,269 DEBUG   SenderThread:25130 [connectionpool.py:_make_request():461] https://api.wandb.ai:443 "POST /graphql HTTP/1.1" 200 None
+2021-02-03 17:38:59,074 INFO    Thread-8  :25130 [dir_watcher.py:_on_file_modified():226] file/dir modified: /home/yuanchaoyi/TPlinker-joint-extraction/wandb/run-20210203_173752-2rkucosd/files/output.log
+2021-02-03 17:39:00,075 INFO    Thread-8  :25130 [dir_watcher.py:_on_file_modified():226] file/dir modified: /home/yuanchaoyi/TPlinker-joint-extraction/wandb/run-20210203_173752-2rkucosd/files/output.log
+2021-02-03 17:39:00,555 DEBUG   SenderThread:25130 [sender.py:send():90] send: stats
+2021-02-03 17:39:00,823 DEBUG   Thread-5  :25130 [connectionpool.py:_make_request():461] https://api.wandb.ai:443 "POST /files/yuanchaoyi/baidu_relation/2rkucosd/file_stream HTTP/1.1" 200 None
+2021-02-03 17:39:03,078 INFO    Thread-8  :25130 [dir_watcher.py:_on_file_modified():226] file/dir modified: /home/yuanchaoyi/TPlinker-joint-extraction/wandb/run-20210203_173752-2rkucosd/files/output.log
+2021-02-03 17:39:06,042 DEBUG   SenderThread:25130 [sender.py:send():90] send: stats
+2021-02-03 17:39:09,132 DEBUG   SenderThread:25130 [sender.py:send():90] send: history
+2021-02-03 17:39:09,133 DEBUG   SenderThread:25130 [sender.py:send():90] send: summary
+2021-02-03 17:39:09,187 INFO    SenderThread:25130 [sender.py:_save_file():568] saving file wandb-summary.json with policy end
+2021-02-03 17:39:10,084 INFO    Thread-8  :25130 [dir_watcher.py:_on_file_modified():226] file/dir modified: /home/yuanchaoyi/TPlinker-joint-extraction/wandb/run-20210203_173752-2rkucosd/files/wandb-summary.json
+2021-02-03 17:39:10,085 INFO    Thread-8  :25130 [dir_watcher.py:_on_file_modified():226] file/dir modified: /home/yuanchaoyi/TPlinker-joint-extraction/wandb/run-20210203_173752-2rkucosd/files/output.log
+2021-02-03 17:39:11,085 INFO    Thread-8  :25130 [dir_watcher.py:_on_file_modified():226] file/dir modified: /home/yuanchaoyi/TPlinker-joint-extraction/wandb/run-20210203_173752-2rkucosd/files/output.log
+2021-02-03 17:39:11,583 DEBUG   SenderThread:25130 [sender.py:send():90] send: stats
+2021-02-03 17:39:11,944 DEBUG   Thread-5  :25130 [connectionpool.py:_make_request():461] https://api.wandb.ai:443 "POST /files/yuanchaoyi/baidu_relation/2rkucosd/file_stream HTTP/1.1" 200 None
+2021-02-03 17:39:12,086 INFO    Thread-8  :25130 [dir_watcher.py:_on_file_modified():226] file/dir modified: /home/yuanchaoyi/TPlinker-joint-extraction/wandb/run-20210203_173752-2rkucosd/files/output.log
+2021-02-03 17:39:13,087 INFO    Thread-8  :25130 [dir_watcher.py:_on_file_modified():226] file/dir modified: /home/yuanchaoyi/TPlinker-joint-extraction/wandb/run-20210203_173752-2rkucosd/files/output.log
+2021-02-03 17:39:13,288 DEBUG   HandlerThread:25130 [handler.py:handle_request():55] handle_request: status
+2021-02-03 17:39:13,289 DEBUG   SenderThread:25130 [sender.py:send():90] send: request
+2021-02-03 17:39:13,291 DEBUG   SenderThread:25130 [sender.py:send_request():99] send_request: status
+2021-02-03 17:39:13,297 DEBUG   SenderThread:25130 [connectionpool.py:_new_conn():975] Starting new HTTPS connection (1): api.wandb.ai:443
+2021-02-03 17:39:13,695 DEBUG   SenderThread:25130 [connectionpool.py:_make_request():461] https://api.wandb.ai:443 "POST /graphql HTTP/1.1" 200 None
+2021-02-03 17:39:14,088 INFO    Thread-8  :25130 [dir_watcher.py:_on_file_modified():226] file/dir modified: /home/yuanchaoyi/TPlinker-joint-extraction/wandb/run-20210203_173752-2rkucosd/files/output.log
+2021-02-03 17:39:15,089 INFO    Thread-8  :25130 [dir_watcher.py:_on_file_modified():226] file/dir modified: /home/yuanchaoyi/TPlinker-joint-extraction/wandb/run-20210203_173752-2rkucosd/files/output.log
+2021-02-03 17:39:16,090 INFO    Thread-8  :25130 [dir_watcher.py:_on_file_modified():226] file/dir modified: /home/yuanchaoyi/TPlinker-joint-extraction/wandb/run-20210203_173752-2rkucosd/files/output.log
+2021-02-03 17:39:17,152 DEBUG   SenderThread:25130 [sender.py:send():90] send: stats
+2021-02-03 17:39:18,092 INFO    Thread-8  :25130 [dir_watcher.py:_on_file_modified():226] file/dir modified: /home/yuanchaoyi/TPlinker-joint-extraction/wandb/run-20210203_173752-2rkucosd/files/output.log
+2021-02-03 17:39:19,107 INFO    Thread-8  :25130 [dir_watcher.py:_on_file_modified():226] file/dir modified: /home/yuanchaoyi/TPlinker-joint-extraction/wandb/run-20210203_173752-2rkucosd/files/output.log
+2021-02-03 17:39:20,108 INFO    Thread-8  :25130 [dir_watcher.py:_on_file_modified():226] file/dir modified: /home/yuanchaoyi/TPlinker-joint-extraction/wandb/run-20210203_173752-2rkucosd/files/output.log
+2021-02-03 17:39:20,686 DEBUG   SenderThread:25130 [sender.py:send():90] send: history
+2021-02-03 17:39:20,687 DEBUG   SenderThread:25130 [sender.py:send():90] send: summary
+2021-02-03 17:39:20,691 INFO    SenderThread:25130 [sender.py:_save_file():568] saving file wandb-summary.json with policy end
+2021-02-03 17:39:21,109 INFO    Thread-8  :25130 [dir_watcher.py:_on_file_modified():226] file/dir modified: /home/yuanchaoyi/TPlinker-joint-extraction/wandb/run-20210203_173752-2rkucosd/files/wandb-summary.json
+2021-02-03 17:39:21,110 INFO    Thread-8  :25130 [dir_watcher.py:_on_file_modified():226] file/dir modified: /home/yuanchaoyi/TPlinker-joint-extraction/wandb/run-20210203_173752-2rkucosd/files/output.log
+2021-02-03 17:39:22,110 INFO    Thread-8  :25130 [dir_watcher.py:_on_file_modified():226] file/dir modified: /home/yuanchaoyi/TPlinker-joint-extraction/wandb/run-20210203_173752-2rkucosd/files/output.log
+2021-02-03 17:39:22,698 DEBUG   SenderThread:25130 [sender.py:send():90] send: stats
+2021-02-03 17:39:22,963 DEBUG   Thread-5  :25130 [connectionpool.py:_make_request():461] https://api.wandb.ai:443 "POST /files/yuanchaoyi/baidu_relation/2rkucosd/file_stream HTTP/1.1" 200 None
+2021-02-03 17:39:23,111 INFO    Thread-8  :25130 [dir_watcher.py:_on_file_modified():226] file/dir modified: /home/yuanchaoyi/TPlinker-joint-extraction/wandb/run-20210203_173752-2rkucosd/files/output.log
+2021-02-03 17:39:24,112 INFO    Thread-8  :25130 [dir_watcher.py:_on_file_modified():226] file/dir modified: /home/yuanchaoyi/TPlinker-joint-extraction/wandb/run-20210203_173752-2rkucosd/files/output.log
+2021-02-03 17:39:26,114 INFO    Thread-8  :25130 [dir_watcher.py:_on_file_modified():226] file/dir modified: /home/yuanchaoyi/TPlinker-joint-extraction/wandb/run-20210203_173752-2rkucosd/files/output.log
+2021-02-03 17:39:27,115 INFO    Thread-8  :25130 [dir_watcher.py:_on_file_modified():226] file/dir modified: /home/yuanchaoyi/TPlinker-joint-extraction/wandb/run-20210203_173752-2rkucosd/files/output.log
+2021-02-03 17:39:28,115 INFO    Thread-8  :25130 [dir_watcher.py:_on_file_modified():226] file/dir modified: /home/yuanchaoyi/TPlinker-joint-extraction/wandb/run-20210203_173752-2rkucosd/files/output.log
+2021-02-03 17:39:28,238 DEBUG   SenderThread:25130 [sender.py:send():90] send: stats
+2021-02-03 17:39:28,702 DEBUG   HandlerThread:25130 [handler.py:handle_request():55] handle_request: status
+2021-02-03 17:39:28,702 DEBUG   SenderThread:25130 [sender.py:send():90] send: request
+2021-02-03 17:39:28,704 DEBUG   SenderThread:25130 [sender.py:send_request():99] send_request: status
+2021-02-03 17:39:28,711 DEBUG   SenderThread:25130 [connectionpool.py:_new_conn():975] Starting new HTTPS connection (1): api.wandb.ai:443
+2021-02-03 17:39:29,107 DEBUG   SenderThread:25130 [connectionpool.py:_make_request():461] https://api.wandb.ai:443 "POST /graphql HTTP/1.1" 200 None
+2021-02-03 17:39:29,116 INFO    Thread-8  :25130 [dir_watcher.py:_on_file_modified():226] file/dir modified: /home/yuanchaoyi/TPlinker-joint-extraction/wandb/run-20210203_173752-2rkucosd/files/output.log
+2021-02-03 17:39:30,117 INFO    Thread-8  :25130 [dir_watcher.py:_on_file_modified():226] file/dir modified: /home/yuanchaoyi/TPlinker-joint-extraction/wandb/run-20210203_173752-2rkucosd/files/output.log
+2021-02-03 17:39:31,119 INFO    Thread-8  :25130 [dir_watcher.py:_on_file_modified():226] file/dir modified: /home/yuanchaoyi/TPlinker-joint-extraction/wandb/run-20210203_173752-2rkucosd/files/output.log
+2021-02-03 17:39:32,091 DEBUG   SenderThread:25130 [sender.py:send():90] send: history
+2021-02-03 17:39:32,092 DEBUG   SenderThread:25130 [sender.py:send():90] send: summary
+2021-02-03 17:39:32,124 INFO    SenderThread:25130 [sender.py:_save_file():568] saving file wandb-summary.json with policy end
+2021-02-03 17:39:32,126 INFO    Thread-8  :25130 [dir_watcher.py:_on_file_modified():226] file/dir modified: /home/yuanchaoyi/TPlinker-joint-extraction/wandb/run-20210203_173752-2rkucosd/files/wandb-summary.json
+2021-02-03 17:39:32,141 INFO    Thread-8  :25130 [dir_watcher.py:_on_file_modified():226] file/dir modified: /home/yuanchaoyi/TPlinker-joint-extraction/wandb/run-20210203_173752-2rkucosd/files/output.log
+2021-02-03 17:39:33,823 DEBUG   SenderThread:25130 [sender.py:send():90] send: stats
+2021-02-03 17:39:34,095 DEBUG   Thread-5  :25130 [connectionpool.py:_make_request():461] https://api.wandb.ai:443 "POST /files/yuanchaoyi/baidu_relation/2rkucosd/file_stream HTTP/1.1" 200 None
+2021-02-03 17:39:34,127 INFO    Thread-8  :25130 [dir_watcher.py:_on_file_modified():226] file/dir modified: /home/yuanchaoyi/TPlinker-joint-extraction/wandb/run-20210203_173752-2rkucosd/files/output.log
+2021-02-03 17:39:35,128 INFO    Thread-8  :25130 [dir_watcher.py:_on_file_modified():226] file/dir modified: /home/yuanchaoyi/TPlinker-joint-extraction/wandb/run-20210203_173752-2rkucosd/files/output.log
+2021-02-03 17:39:36,129 INFO    Thread-8  :25130 [dir_watcher.py:_on_file_modified():226] file/dir modified: /home/yuanchaoyi/TPlinker-joint-extraction/wandb/run-20210203_173752-2rkucosd/files/output.log
+2021-02-03 17:39:37,130 INFO    Thread-8  :25130 [dir_watcher.py:_on_file_modified():226] file/dir modified: /home/yuanchaoyi/TPlinker-joint-extraction/wandb/run-20210203_173752-2rkucosd/files/output.log
+2021-02-03 17:39:38,131 INFO    Thread-8  :25130 [dir_watcher.py:_on_file_modified():226] file/dir modified: /home/yuanchaoyi/TPlinker-joint-extraction/wandb/run-20210203_173752-2rkucosd/files/output.log
+2021-02-03 17:39:39,132 INFO    Thread-8  :25130 [dir_watcher.py:_on_file_modified():226] file/dir modified: /home/yuanchaoyi/TPlinker-joint-extraction/wandb/run-20210203_173752-2rkucosd/files/output.log
+2021-02-03 17:39:39,373 DEBUG   SenderThread:25130 [sender.py:send():90] send: stats
+2021-02-03 17:39:41,134 INFO    Thread-8  :25130 [dir_watcher.py:_on_file_modified():226] file/dir modified: /home/yuanchaoyi/TPlinker-joint-extraction/wandb/run-20210203_173752-2rkucosd/files/output.log
+2021-02-03 17:39:42,135 INFO    Thread-8  :25130 [dir_watcher.py:_on_file_modified():226] file/dir modified: /home/yuanchaoyi/TPlinker-joint-extraction/wandb/run-20210203_173752-2rkucosd/files/output.log
+2021-02-03 17:39:43,135 INFO    Thread-8  :25130 [dir_watcher.py:_on_file_modified():226] file/dir modified: /home/yuanchaoyi/TPlinker-joint-extraction/wandb/run-20210203_173752-2rkucosd/files/output.log
+2021-02-03 17:39:43,695 DEBUG   SenderThread:25130 [sender.py:send():90] send: history
+2021-02-03 17:39:43,695 DEBUG   SenderThread:25130 [sender.py:send():90] send: summary
+2021-02-03 17:39:43,742 INFO    SenderThread:25130 [sender.py:_save_file():568] saving file wandb-summary.json with policy end
+2021-02-03 17:39:44,112 DEBUG   HandlerThread:25130 [handler.py:handle_request():55] handle_request: status
+2021-02-03 17:39:44,112 DEBUG   SenderThread:25130 [sender.py:send():90] send: request
+2021-02-03 17:39:44,114 DEBUG   SenderThread:25130 [sender.py:send_request():99] send_request: status
+2021-02-03 17:39:44,122 DEBUG   SenderThread:25130 [connectionpool.py:_new_conn():975] Starting new HTTPS connection (1): api.wandb.ai:443
+2021-02-03 17:39:44,136 INFO    Thread-8  :25130 [dir_watcher.py:_on_file_modified():226] file/dir modified: /home/yuanchaoyi/TPlinker-joint-extraction/wandb/run-20210203_173752-2rkucosd/files/wandb-summary.json
+2021-02-03 17:39:44,136 INFO    Thread-8  :25130 [dir_watcher.py:_on_file_modified():226] file/dir modified: /home/yuanchaoyi/TPlinker-joint-extraction/wandb/run-20210203_173752-2rkucosd/files/output.log
+2021-02-03 17:39:44,521 DEBUG   SenderThread:25130 [connectionpool.py:_make_request():461] https://api.wandb.ai:443 "POST /graphql HTTP/1.1" 200 None
+2021-02-03 17:39:44,924 DEBUG   SenderThread:25130 [sender.py:send():90] send: stats
+2021-02-03 17:39:45,137 INFO    Thread-8  :25130 [dir_watcher.py:_on_file_modified():226] file/dir modified: /home/yuanchaoyi/TPlinker-joint-extraction/wandb/run-20210203_173752-2rkucosd/files/output.log
+2021-02-03 17:39:45,197 DEBUG   Thread-5  :25130 [connectionpool.py:_make_request():461] https://api.wandb.ai:443 "POST /files/yuanchaoyi/baidu_relation/2rkucosd/file_stream HTTP/1.1" 200 None
+2021-02-03 17:39:46,138 INFO    Thread-8  :25130 [dir_watcher.py:_on_file_modified():226] file/dir modified: /home/yuanchaoyi/TPlinker-joint-extraction/wandb/run-20210203_173752-2rkucosd/files/output.log
+2021-02-03 17:39:47,138 INFO    Thread-8  :25130 [dir_watcher.py:_on_file_modified():226] file/dir modified: /home/yuanchaoyi/TPlinker-joint-extraction/wandb/run-20210203_173752-2rkucosd/files/output.log
+2021-02-03 17:39:49,141 INFO    Thread-8  :25130 [dir_watcher.py:_on_file_modified():226] file/dir modified: /home/yuanchaoyi/TPlinker-joint-extraction/wandb/run-20210203_173752-2rkucosd/files/output.log
+2021-02-03 17:39:50,142 INFO    Thread-8  :25130 [dir_watcher.py:_on_file_modified():226] file/dir modified: /home/yuanchaoyi/TPlinker-joint-extraction/wandb/run-20210203_173752-2rkucosd/files/output.log
+2021-02-03 17:39:50,548 DEBUG   SenderThread:25130 [sender.py:send():90] send: stats
+2021-02-03 17:39:51,142 INFO    Thread-8  :25130 [dir_watcher.py:_on_file_modified():226] file/dir modified: /home/yuanchaoyi/TPlinker-joint-extraction/wandb/run-20210203_173752-2rkucosd/files/output.log
+2021-02-03 17:39:52,143 INFO    Thread-8  :25130 [dir_watcher.py:_on_file_modified():226] file/dir modified: /home/yuanchaoyi/TPlinker-joint-extraction/wandb/run-20210203_173752-2rkucosd/files/output.log
+2021-02-03 17:39:53,144 INFO    Thread-8  :25130 [dir_watcher.py:_on_file_modified():226] file/dir modified: /home/yuanchaoyi/TPlinker-joint-extraction/wandb/run-20210203_173752-2rkucosd/files/output.log
+2021-02-03 17:39:54,145 INFO    Thread-8  :25130 [dir_watcher.py:_on_file_modified():226] file/dir modified: /home/yuanchaoyi/TPlinker-joint-extraction/wandb/run-20210203_173752-2rkucosd/files/output.log
+2021-02-03 17:39:55,058 DEBUG   SenderThread:25130 [sender.py:send():90] send: history
+2021-02-03 17:39:55,058 DEBUG   SenderThread:25130 [sender.py:send():90] send: summary
+2021-02-03 17:39:55,064 INFO    SenderThread:25130 [sender.py:_save_file():568] saving file wandb-summary.json with policy end
+2021-02-03 17:39:55,146 INFO    Thread-8  :25130 [dir_watcher.py:_on_file_modified():226] file/dir modified: /home/yuanchaoyi/TPlinker-joint-extraction/wandb/run-20210203_173752-2rkucosd/files/wandb-summary.json
+2021-02-03 17:39:55,147 INFO    Thread-8  :25130 [dir_watcher.py:_on_file_modified():226] file/dir modified: /home/yuanchaoyi/TPlinker-joint-extraction/wandb/run-20210203_173752-2rkucosd/files/output.log
+2021-02-03 17:39:55,328 DEBUG   Thread-5  :25130 [connectionpool.py:_make_request():461] https://api.wandb.ai:443 "POST /files/yuanchaoyi/baidu_relation/2rkucosd/file_stream HTTP/1.1" 200 None
+2021-02-03 17:39:56,095 DEBUG   SenderThread:25130 [sender.py:send():90] send: stats
+2021-02-03 17:39:57,148 INFO    Thread-8  :25130 [dir_watcher.py:_on_file_modified():226] file/dir modified: /home/yuanchaoyi/TPlinker-joint-extraction/wandb/run-20210203_173752-2rkucosd/files/output.log
+2021-02-03 17:39:58,149 INFO    Thread-8  :25130 [dir_watcher.py:_on_file_modified():226] file/dir modified: /home/yuanchaoyi/TPlinker-joint-extraction/wandb/run-20210203_173752-2rkucosd/files/output.log
+2021-02-03 17:39:59,150 INFO    Thread-8  :25130 [dir_watcher.py:_on_file_modified():226] file/dir modified: /home/yuanchaoyi/TPlinker-joint-extraction/wandb/run-20210203_173752-2rkucosd/files/output.log
+2021-02-03 17:39:59,526 DEBUG   HandlerThread:25130 [handler.py:handle_request():55] handle_request: status
+2021-02-03 17:39:59,526 DEBUG   SenderThread:25130 [sender.py:send():90] send: request
+2021-02-03 17:39:59,528 DEBUG   SenderThread:25130 [sender.py:send_request():99] send_request: status
+2021-02-03 17:39:59,534 DEBUG   SenderThread:25130 [connectionpool.py:_new_conn():975] Starting new HTTPS connection (1): api.wandb.ai:443
+2021-02-03 17:39:59,968 DEBUG   SenderThread:25130 [connectionpool.py:_make_request():461] https://api.wandb.ai:443 "POST /graphql HTTP/1.1" 200 None
+2021-02-03 17:40:00,151 INFO    Thread-8  :25130 [dir_watcher.py:_on_file_modified():226] file/dir modified: /home/yuanchaoyi/TPlinker-joint-extraction/wandb/run-20210203_173752-2rkucosd/files/output.log
+2021-02-03 17:40:01,152 INFO    Thread-8  :25130 [dir_watcher.py:_on_file_modified():226] file/dir modified: /home/yuanchaoyi/TPlinker-joint-extraction/wandb/run-20210203_173752-2rkucosd/files/output.log
+2021-02-03 17:40:01,683 DEBUG   SenderThread:25130 [sender.py:send():90] send: stats
+2021-02-03 17:40:02,153 INFO    Thread-8  :25130 [dir_watcher.py:_on_file_modified():226] file/dir modified: /home/yuanchaoyi/TPlinker-joint-extraction/wandb/run-20210203_173752-2rkucosd/files/output.log
+2021-02-03 17:40:03,153 INFO    Thread-8  :25130 [dir_watcher.py:_on_file_modified():226] file/dir modified: /home/yuanchaoyi/TPlinker-joint-extraction/wandb/run-20210203_173752-2rkucosd/files/output.log
+2021-02-03 17:40:05,155 INFO    Thread-8  :25130 [dir_watcher.py:_on_file_modified():226] file/dir modified: /home/yuanchaoyi/TPlinker-joint-extraction/wandb/run-20210203_173752-2rkucosd/files/output.log
+2021-02-03 17:40:06,156 INFO    Thread-8  :25130 [dir_watcher.py:_on_file_modified():226] file/dir modified: /home/yuanchaoyi/TPlinker-joint-extraction/wandb/run-20210203_173752-2rkucosd/files/output.log
+2021-02-03 17:40:06,620 DEBUG   SenderThread:25130 [sender.py:send():90] send: history
+2021-02-03 17:40:06,621 DEBUG   SenderThread:25130 [sender.py:send():90] send: summary
+2021-02-03 17:40:06,628 INFO    SenderThread:25130 [sender.py:_save_file():568] saving file wandb-summary.json with policy end
+2021-02-03 17:40:06,889 DEBUG   Thread-5  :25130 [connectionpool.py:_make_request():461] https://api.wandb.ai:443 "POST /files/yuanchaoyi/baidu_relation/2rkucosd/file_stream HTTP/1.1" 200 None
+2021-02-03 17:40:07,157 INFO    Thread-8  :25130 [dir_watcher.py:_on_file_modified():226] file/dir modified: /home/yuanchaoyi/TPlinker-joint-extraction/wandb/run-20210203_173752-2rkucosd/files/wandb-summary.json
+2021-02-03 17:40:07,158 INFO    Thread-8  :25130 [dir_watcher.py:_on_file_modified():226] file/dir modified: /home/yuanchaoyi/TPlinker-joint-extraction/wandb/run-20210203_173752-2rkucosd/files/output.log
+2021-02-03 17:40:07,267 DEBUG   SenderThread:25130 [sender.py:send():90] send: stats
+2021-02-03 17:40:08,158 INFO    Thread-8  :25130 [dir_watcher.py:_on_file_modified():226] file/dir modified: /home/yuanchaoyi/TPlinker-joint-extraction/wandb/run-20210203_173752-2rkucosd/files/output.log
+2021-02-03 17:40:09,159 INFO    Thread-8  :25130 [dir_watcher.py:_on_file_modified():226] file/dir modified: /home/yuanchaoyi/TPlinker-joint-extraction/wandb/run-20210203_173752-2rkucosd/files/output.log
+2021-02-03 17:40:10,160 INFO    Thread-8  :25130 [dir_watcher.py:_on_file_modified():226] file/dir modified: /home/yuanchaoyi/TPlinker-joint-extraction/wandb/run-20210203_173752-2rkucosd/files/output.log
+2021-02-03 17:40:11,161 INFO    Thread-8  :25130 [dir_watcher.py:_on_file_modified():226] file/dir modified: /home/yuanchaoyi/TPlinker-joint-extraction/wandb/run-20210203_173752-2rkucosd/files/output.log
+2021-02-03 17:40:12,774 DEBUG   SenderThread:25130 [sender.py:send():90] send: stats
+2021-02-03 17:40:13,162 INFO    Thread-8  :25130 [dir_watcher.py:_on_file_modified():226] file/dir modified: /home/yuanchaoyi/TPlinker-joint-extraction/wandb/run-20210203_173752-2rkucosd/files/output.log
+2021-02-03 17:40:14,163 INFO    Thread-8  :25130 [dir_watcher.py:_on_file_modified():226] file/dir modified: /home/yuanchaoyi/TPlinker-joint-extraction/wandb/run-20210203_173752-2rkucosd/files/output.log
+2021-02-03 17:40:14,974 DEBUG   HandlerThread:25130 [handler.py:handle_request():55] handle_request: status
+2021-02-03 17:40:14,974 DEBUG   SenderThread:25130 [sender.py:send():90] send: request
+2021-02-03 17:40:14,977 DEBUG   SenderThread:25130 [sender.py:send_request():99] send_request: status
+2021-02-03 17:40:14,981 DEBUG   SenderThread:25130 [connectionpool.py:_new_conn():975] Starting new HTTPS connection (1): api.wandb.ai:443
+2021-02-03 17:40:15,163 INFO    Thread-8  :25130 [dir_watcher.py:_on_file_modified():226] file/dir modified: /home/yuanchaoyi/TPlinker-joint-extraction/wandb/run-20210203_173752-2rkucosd/files/output.log
+2021-02-03 17:40:15,389 DEBUG   SenderThread:25130 [connectionpool.py:_make_request():461] https://api.wandb.ai:443 "POST /graphql HTTP/1.1" 200 None
+2021-02-03 17:40:16,164 INFO    Thread-8  :25130 [dir_watcher.py:_on_file_modified():226] file/dir modified: /home/yuanchaoyi/TPlinker-joint-extraction/wandb/run-20210203_173752-2rkucosd/files/output.log
+2021-02-03 17:40:17,165 INFO    Thread-8  :25130 [dir_watcher.py:_on_file_modified():226] file/dir modified: /home/yuanchaoyi/TPlinker-joint-extraction/wandb/run-20210203_173752-2rkucosd/files/output.log
+2021-02-03 17:40:18,024 DEBUG   SenderThread:25130 [sender.py:send():90] send: history
+2021-02-03 17:40:18,025 DEBUG   SenderThread:25130 [sender.py:send():90] send: summary
+2021-02-03 17:40:18,048 INFO    SenderThread:25130 [sender.py:_save_file():568] saving file wandb-summary.json with policy end
+2021-02-03 17:40:18,166 INFO    Thread-8  :25130 [dir_watcher.py:_on_file_modified():226] file/dir modified: /home/yuanchaoyi/TPlinker-joint-extraction/wandb/run-20210203_173752-2rkucosd/files/wandb-summary.json
+2021-02-03 17:40:18,167 INFO    Thread-8  :25130 [dir_watcher.py:_on_file_modified():226] file/dir modified: /home/yuanchaoyi/TPlinker-joint-extraction/wandb/run-20210203_173752-2rkucosd/files/output.log
+2021-02-03 17:40:18,278 DEBUG   SenderThread:25130 [sender.py:send():90] send: stats
+2021-02-03 17:40:18,280 DEBUG   Thread-5  :25130 [connectionpool.py:_make_request():461] https://api.wandb.ai:443 "POST /files/yuanchaoyi/baidu_relation/2rkucosd/file_stream HTTP/1.1" 200 None
+2021-02-03 17:40:19,167 INFO    Thread-8  :25130 [dir_watcher.py:_on_file_modified():226] file/dir modified: /home/yuanchaoyi/TPlinker-joint-extraction/wandb/run-20210203_173752-2rkucosd/files/output.log
+2021-02-03 17:40:21,168 INFO    Thread-8  :25130 [dir_watcher.py:_on_file_modified():226] file/dir modified: /home/yuanchaoyi/TPlinker-joint-extraction/wandb/run-20210203_173752-2rkucosd/files/output.log
+2021-02-03 17:40:22,170 INFO    Thread-8  :25130 [dir_watcher.py:_on_file_modified():226] file/dir modified: /home/yuanchaoyi/TPlinker-joint-extraction/wandb/run-20210203_173752-2rkucosd/files/output.log
+2021-02-03 17:40:23,171 INFO    Thread-8  :25130 [dir_watcher.py:_on_file_modified():226] file/dir modified: /home/yuanchaoyi/TPlinker-joint-extraction/wandb/run-20210203_173752-2rkucosd/files/output.log
+2021-02-03 17:40:23,890 DEBUG   SenderThread:25130 [sender.py:send():90] send: stats
+2021-02-03 17:40:24,171 INFO    Thread-8  :25130 [dir_watcher.py:_on_file_modified():226] file/dir modified: /home/yuanchaoyi/TPlinker-joint-extraction/wandb/run-20210203_173752-2rkucosd/files/output.log
+2021-02-03 17:40:25,173 INFO    Thread-8  :25130 [dir_watcher.py:_on_file_modified():226] file/dir modified: /home/yuanchaoyi/TPlinker-joint-extraction/wandb/run-20210203_173752-2rkucosd/files/output.log
+2021-02-03 17:40:26,173 INFO    Thread-8  :25130 [dir_watcher.py:_on_file_modified():226] file/dir modified: /home/yuanchaoyi/TPlinker-joint-extraction/wandb/run-20210203_173752-2rkucosd/files/output.log
+2021-02-03 17:40:28,175 INFO    Thread-8  :25130 [dir_watcher.py:_on_file_modified():226] file/dir modified: /home/yuanchaoyi/TPlinker-joint-extraction/wandb/run-20210203_173752-2rkucosd/files/output.log
+2021-02-03 17:40:29,176 INFO    Thread-8  :25130 [dir_watcher.py:_on_file_modified():226] file/dir modified: /home/yuanchaoyi/TPlinker-joint-extraction/wandb/run-20210203_173752-2rkucosd/files/output.log
+2021-02-03 17:40:29,334 DEBUG   SenderThread:25130 [sender.py:send():90] send: stats
+2021-02-03 17:40:29,603 DEBUG   Thread-5  :25130 [connectionpool.py:_make_request():461] https://api.wandb.ai:443 "POST /files/yuanchaoyi/baidu_relation/2rkucosd/file_stream HTTP/1.1" 200 None
+2021-02-03 17:40:29,680 DEBUG   SenderThread:25130 [sender.py:send():90] send: history
+2021-02-03 17:40:29,681 DEBUG   SenderThread:25130 [sender.py:send():90] send: summary
+2021-02-03 17:40:29,700 INFO    SenderThread:25130 [sender.py:_save_file():568] saving file wandb-summary.json with policy end
+2021-02-03 17:40:30,177 INFO    Thread-8  :25130 [dir_watcher.py:_on_file_modified():226] file/dir modified: /home/yuanchaoyi/TPlinker-joint-extraction/wandb/run-20210203_173752-2rkucosd/files/wandb-summary.json
+2021-02-03 17:40:30,177 INFO    Thread-8  :25130 [dir_watcher.py:_on_file_modified():226] file/dir modified: /home/yuanchaoyi/TPlinker-joint-extraction/wandb/run-20210203_173752-2rkucosd/files/output.log
+2021-02-03 17:40:30,395 DEBUG   HandlerThread:25130 [handler.py:handle_request():55] handle_request: status
+2021-02-03 17:40:30,395 DEBUG   SenderThread:25130 [sender.py:send():90] send: request
+2021-02-03 17:40:30,397 DEBUG   SenderThread:25130 [sender.py:send_request():99] send_request: status
+2021-02-03 17:40:30,402 DEBUG   SenderThread:25130 [connectionpool.py:_new_conn():975] Starting new HTTPS connection (1): api.wandb.ai:443
+2021-02-03 17:40:30,794 DEBUG   SenderThread:25130 [connectionpool.py:_make_request():461] https://api.wandb.ai:443 "POST /graphql HTTP/1.1" 200 None
+2021-02-03 17:40:31,178 INFO    Thread-8  :25130 [dir_watcher.py:_on_file_modified():226] file/dir modified: /home/yuanchaoyi/TPlinker-joint-extraction/wandb/run-20210203_173752-2rkucosd/files/output.log
+2021-02-03 17:40:32,179 INFO    Thread-8  :25130 [dir_watcher.py:_on_file_modified():226] file/dir modified: /home/yuanchaoyi/TPlinker-joint-extraction/wandb/run-20210203_173752-2rkucosd/files/output.log
+2021-02-03 17:40:33,180 INFO    Thread-8  :25130 [dir_watcher.py:_on_file_modified():226] file/dir modified: /home/yuanchaoyi/TPlinker-joint-extraction/wandb/run-20210203_173752-2rkucosd/files/output.log
+2021-02-03 17:40:34,896 DEBUG   SenderThread:25130 [sender.py:send():90] send: stats
+2021-02-03 17:40:35,181 INFO    Thread-8  :25130 [dir_watcher.py:_on_file_modified():226] file/dir modified: /home/yuanchaoyi/TPlinker-joint-extraction/wandb/run-20210203_173752-2rkucosd/files/output.log
+2021-02-03 17:40:36,182 INFO    Thread-8  :25130 [dir_watcher.py:_on_file_modified():226] file/dir modified: /home/yuanchaoyi/TPlinker-joint-extraction/wandb/run-20210203_173752-2rkucosd/files/output.log
+2021-02-03 17:40:37,184 INFO    Thread-8  :25130 [dir_watcher.py:_on_file_modified():226] file/dir modified: /home/yuanchaoyi/TPlinker-joint-extraction/wandb/run-20210203_173752-2rkucosd/files/output.log
+2021-02-03 17:40:38,184 INFO    Thread-8  :25130 [dir_watcher.py:_on_file_modified():226] file/dir modified: /home/yuanchaoyi/TPlinker-joint-extraction/wandb/run-20210203_173752-2rkucosd/files/output.log
+2021-02-03 17:40:39,185 INFO    Thread-8  :25130 [dir_watcher.py:_on_file_modified():226] file/dir modified: /home/yuanchaoyi/TPlinker-joint-extraction/wandb/run-20210203_173752-2rkucosd/files/output.log
+2021-02-03 17:40:40,187 INFO    Thread-8  :25130 [dir_watcher.py:_on_file_modified():226] file/dir modified: /home/yuanchaoyi/TPlinker-joint-extraction/wandb/run-20210203_173752-2rkucosd/files/output.log
+2021-02-03 17:40:40,397 DEBUG   SenderThread:25130 [sender.py:send():90] send: stats
+2021-02-03 17:40:40,659 DEBUG   Thread-5  :25130 [connectionpool.py:_make_request():461] https://api.wandb.ai:443 "POST /files/yuanchaoyi/baidu_relation/2rkucosd/file_stream HTTP/1.1" 200 None
+2021-02-03 17:40:41,345 DEBUG   SenderThread:25130 [sender.py:send():90] send: history
+2021-02-03 17:40:41,345 DEBUG   SenderThread:25130 [sender.py:send():90] send: summary
+2021-02-03 17:40:41,351 INFO    SenderThread:25130 [sender.py:_save_file():568] saving file wandb-summary.json with policy end
+2021-02-03 17:40:42,188 INFO    Thread-8  :25130 [dir_watcher.py:_on_file_modified():226] file/dir modified: /home/yuanchaoyi/TPlinker-joint-extraction/wandb/run-20210203_173752-2rkucosd/files/wandb-summary.json
+2021-02-03 17:40:42,189 INFO    Thread-8  :25130 [dir_watcher.py:_on_file_modified():226] file/dir modified: /home/yuanchaoyi/TPlinker-joint-extraction/wandb/run-20210203_173752-2rkucosd/files/output.log
+2021-02-03 17:40:43,189 INFO    Thread-8  :25130 [dir_watcher.py:_on_file_modified():226] file/dir modified: /home/yuanchaoyi/TPlinker-joint-extraction/wandb/run-20210203_173752-2rkucosd/files/output.log
+2021-02-03 17:40:44,190 INFO    Thread-8  :25130 [dir_watcher.py:_on_file_modified():226] file/dir modified: /home/yuanchaoyi/TPlinker-joint-extraction/wandb/run-20210203_173752-2rkucosd/files/output.log
+2021-02-03 17:40:45,191 INFO    Thread-8  :25130 [dir_watcher.py:_on_file_modified():226] file/dir modified: /home/yuanchaoyi/TPlinker-joint-extraction/wandb/run-20210203_173752-2rkucosd/files/output.log
+2021-02-03 17:40:45,800 DEBUG   HandlerThread:25130 [handler.py:handle_request():55] handle_request: status
+2021-02-03 17:40:45,801 DEBUG   SenderThread:25130 [sender.py:send():90] send: request
+2021-02-03 17:40:45,802 DEBUG   SenderThread:25130 [sender.py:send_request():99] send_request: status
+2021-02-03 17:40:45,807 DEBUG   SenderThread:25130 [connectionpool.py:_new_conn():975] Starting new HTTPS connection (1): api.wandb.ai:443
+2021-02-03 17:40:46,193 INFO    Thread-8  :25130 [dir_watcher.py:_on_file_modified():226] file/dir modified: /home/yuanchaoyi/TPlinker-joint-extraction/wandb/run-20210203_173752-2rkucosd/files/output.log
+2021-02-03 17:40:46,202 DEBUG   SenderThread:25130 [connectionpool.py:_make_request():461] https://api.wandb.ai:443 "POST /graphql HTTP/1.1" 200 None
+2021-02-03 17:40:46,204 DEBUG   SenderThread:25130 [sender.py:send():90] send: stats
+2021-02-03 17:40:47,193 INFO    Thread-8  :25130 [dir_watcher.py:_on_file_modified():226] file/dir modified: /home/yuanchaoyi/TPlinker-joint-extraction/wandb/run-20210203_173752-2rkucosd/files/output.log
+2021-02-03 17:40:48,194 INFO    Thread-8  :25130 [dir_watcher.py:_on_file_modified():226] file/dir modified: /home/yuanchaoyi/TPlinker-joint-extraction/wandb/run-20210203_173752-2rkucosd/files/output.log
+2021-02-03 17:40:49,195 INFO    Thread-8  :25130 [dir_watcher.py:_on_file_modified():226] file/dir modified: /home/yuanchaoyi/TPlinker-joint-extraction/wandb/run-20210203_173752-2rkucosd/files/output.log
+2021-02-03 17:40:51,198 INFO    Thread-8  :25130 [dir_watcher.py:_on_file_modified():226] file/dir modified: /home/yuanchaoyi/TPlinker-joint-extraction/wandb/run-20210203_173752-2rkucosd/files/output.log
+2021-02-03 17:40:51,472 DEBUG   SenderThread:25130 [sender.py:send():90] send: stats
+2021-02-03 17:40:51,741 DEBUG   Thread-5  :25130 [connectionpool.py:_make_request():461] https://api.wandb.ai:443 "POST /files/yuanchaoyi/baidu_relation/2rkucosd/file_stream HTTP/1.1" 200 None
+2021-02-03 17:40:52,198 INFO    Thread-8  :25130 [dir_watcher.py:_on_file_modified():226] file/dir modified: /home/yuanchaoyi/TPlinker-joint-extraction/wandb/run-20210203_173752-2rkucosd/files/output.log
+2021-02-03 17:40:52,636 DEBUG   SenderThread:25130 [sender.py:send():90] send: history
+2021-02-03 17:40:52,637 DEBUG   SenderThread:25130 [sender.py:send():90] send: summary
+2021-02-03 17:40:52,679 INFO    SenderThread:25130 [sender.py:_save_file():568] saving file wandb-summary.json with policy end
+2021-02-03 17:40:53,200 INFO    Thread-8  :25130 [dir_watcher.py:_on_file_modified():226] file/dir modified: /home/yuanchaoyi/TPlinker-joint-extraction/wandb/run-20210203_173752-2rkucosd/files/wandb-summary.json
+2021-02-03 17:40:53,201 INFO    Thread-8  :25130 [dir_watcher.py:_on_file_modified():226] file/dir modified: /home/yuanchaoyi/TPlinker-joint-extraction/wandb/run-20210203_173752-2rkucosd/files/output.log
+2021-02-03 17:40:54,201 INFO    Thread-8  :25130 [dir_watcher.py:_on_file_modified():226] file/dir modified: /home/yuanchaoyi/TPlinker-joint-extraction/wandb/run-20210203_173752-2rkucosd/files/output.log
+2021-02-03 17:40:55,202 INFO    Thread-8  :25130 [dir_watcher.py:_on_file_modified():226] file/dir modified: /home/yuanchaoyi/TPlinker-joint-extraction/wandb/run-20210203_173752-2rkucosd/files/output.log
+2021-02-03 17:40:56,203 INFO    Thread-8  :25130 [dir_watcher.py:_on_file_modified():226] file/dir modified: /home/yuanchaoyi/TPlinker-joint-extraction/wandb/run-20210203_173752-2rkucosd/files/output.log
+2021-02-03 17:40:56,938 DEBUG   SenderThread:25130 [sender.py:send():90] send: stats
+2021-02-03 17:40:57,204 INFO    Thread-8  :25130 [dir_watcher.py:_on_file_modified():226] file/dir modified: /home/yuanchaoyi/TPlinker-joint-extraction/wandb/run-20210203_173752-2rkucosd/files/output.log
+2021-02-03 17:40:59,206 INFO    Thread-8  :25130 [dir_watcher.py:_on_file_modified():226] file/dir modified: /home/yuanchaoyi/TPlinker-joint-extraction/wandb/run-20210203_173752-2rkucosd/files/output.log
+2021-02-03 17:41:00,207 INFO    Thread-8  :25130 [dir_watcher.py:_on_file_modified():226] file/dir modified: /home/yuanchaoyi/TPlinker-joint-extraction/wandb/run-20210203_173752-2rkucosd/files/output.log
+2021-02-03 17:41:01,206 DEBUG   HandlerThread:25130 [handler.py:handle_request():55] handle_request: status
+2021-02-03 17:41:01,207 DEBUG   SenderThread:25130 [sender.py:send():90] send: request
+2021-02-03 17:41:01,207 DEBUG   SenderThread:25130 [sender.py:send_request():99] send_request: status
+2021-02-03 17:41:01,213 DEBUG   SenderThread:25130 [connectionpool.py:_new_conn():975] Starting new HTTPS connection (1): api.wandb.ai:443
+2021-02-03 17:41:01,213 INFO    Thread-8  :25130 [dir_watcher.py:_on_file_modified():226] file/dir modified: /home/yuanchaoyi/TPlinker-joint-extraction/wandb/run-20210203_173752-2rkucosd/files/output.log
+2021-02-03 17:41:01,652 DEBUG   SenderThread:25130 [connectionpool.py:_make_request():461] https://api.wandb.ai:443 "POST /graphql HTTP/1.1" 200 None
+2021-02-03 17:41:02,216 INFO    Thread-8  :25130 [dir_watcher.py:_on_file_modified():226] file/dir modified: /home/yuanchaoyi/TPlinker-joint-extraction/wandb/run-20210203_173752-2rkucosd/files/output.log
+2021-02-03 17:41:02,549 DEBUG   SenderThread:25130 [sender.py:send():90] send: stats
+2021-02-03 17:41:02,810 DEBUG   Thread-5  :25130 [connectionpool.py:_make_request():461] https://api.wandb.ai:443 "POST /files/yuanchaoyi/baidu_relation/2rkucosd/file_stream HTTP/1.1" 200 None
+2021-02-03 17:41:03,216 INFO    Thread-8  :25130 [dir_watcher.py:_on_file_modified():226] file/dir modified: /home/yuanchaoyi/TPlinker-joint-extraction/wandb/run-20210203_173752-2rkucosd/files/output.log
+2021-02-03 17:41:03,903 DEBUG   SenderThread:25130 [sender.py:send():90] send: history
+2021-02-03 17:41:03,904 DEBUG   SenderThread:25130 [sender.py:send():90] send: summary
+2021-02-03 17:41:03,909 INFO    SenderThread:25130 [sender.py:_save_file():568] saving file wandb-summary.json with policy end
+2021-02-03 17:41:04,217 INFO    Thread-8  :25130 [dir_watcher.py:_on_file_modified():226] file/dir modified: /home/yuanchaoyi/TPlinker-joint-extraction/wandb/run-20210203_173752-2rkucosd/files/wandb-summary.json
+2021-02-03 17:41:04,217 INFO    Thread-8  :25130 [dir_watcher.py:_on_file_modified():226] file/dir modified: /home/yuanchaoyi/TPlinker-joint-extraction/wandb/run-20210203_173752-2rkucosd/files/output.log
+2021-02-03 17:41:05,218 INFO    Thread-8  :25130 [dir_watcher.py:_on_file_modified():226] file/dir modified: /home/yuanchaoyi/TPlinker-joint-extraction/wandb/run-20210203_173752-2rkucosd/files/output.log
+2021-02-03 17:41:06,219 INFO    Thread-8  :25130 [dir_watcher.py:_on_file_modified():226] file/dir modified: /home/yuanchaoyi/TPlinker-joint-extraction/wandb/run-20210203_173752-2rkucosd/files/output.log
+2021-02-03 17:41:08,048 DEBUG   SenderThread:25130 [sender.py:send():90] send: stats
+2021-02-03 17:41:08,221 INFO    Thread-8  :25130 [dir_watcher.py:_on_file_modified():226] file/dir modified: /home/yuanchaoyi/TPlinker-joint-extraction/wandb/run-20210203_173752-2rkucosd/files/output.log
+2021-02-03 17:41:09,222 INFO    Thread-8  :25130 [dir_watcher.py:_on_file_modified():226] file/dir modified: /home/yuanchaoyi/TPlinker-joint-extraction/wandb/run-20210203_173752-2rkucosd/files/output.log
+2021-02-03 17:41:10,223 INFO    Thread-8  :25130 [dir_watcher.py:_on_file_modified():226] file/dir modified: /home/yuanchaoyi/TPlinker-joint-extraction/wandb/run-20210203_173752-2rkucosd/files/output.log
+2021-02-03 17:41:11,224 INFO    Thread-8  :25130 [dir_watcher.py:_on_file_modified():226] file/dir modified: /home/yuanchaoyi/TPlinker-joint-extraction/wandb/run-20210203_173752-2rkucosd/files/output.log
+2021-02-03 17:41:12,225 INFO    Thread-8  :25130 [dir_watcher.py:_on_file_modified():226] file/dir modified: /home/yuanchaoyi/TPlinker-joint-extraction/wandb/run-20210203_173752-2rkucosd/files/output.log
+2021-02-03 17:41:13,226 INFO    Thread-8  :25130 [dir_watcher.py:_on_file_modified():226] file/dir modified: /home/yuanchaoyi/TPlinker-joint-extraction/wandb/run-20210203_173752-2rkucosd/files/output.log
+2021-02-03 17:41:13,614 DEBUG   SenderThread:25130 [sender.py:send():90] send: stats
+2021-02-03 17:41:13,932 DEBUG   Thread-5  :25130 [connectionpool.py:_make_request():461] https://api.wandb.ai:443 "POST /files/yuanchaoyi/baidu_relation/2rkucosd/file_stream HTTP/1.1" 200 None
+2021-02-03 17:41:14,227 INFO    Thread-8  :25130 [dir_watcher.py:_on_file_modified():226] file/dir modified: /home/yuanchaoyi/TPlinker-joint-extraction/wandb/run-20210203_173752-2rkucosd/files/output.log
+2021-02-03 17:41:15,316 DEBUG   SenderThread:25130 [sender.py:send():90] send: history
+2021-02-03 17:41:15,316 DEBUG   SenderThread:25130 [sender.py:send():90] send: summary
+2021-02-03 17:41:15,321 INFO    SenderThread:25130 [sender.py:_save_file():568] saving file wandb-summary.json with policy end
+2021-02-03 17:41:16,228 INFO    Thread-8  :25130 [dir_watcher.py:_on_file_modified():226] file/dir modified: /home/yuanchaoyi/TPlinker-joint-extraction/wandb/run-20210203_173752-2rkucosd/files/wandb-summary.json
+2021-02-03 17:41:16,229 INFO    Thread-8  :25130 [dir_watcher.py:_on_file_modified():226] file/dir modified: /home/yuanchaoyi/TPlinker-joint-extraction/wandb/run-20210203_173752-2rkucosd/files/output.log
+2021-02-03 17:41:16,656 DEBUG   HandlerThread:25130 [handler.py:handle_request():55] handle_request: status
+2021-02-03 17:41:16,657 DEBUG   SenderThread:25130 [sender.py:send():90] send: request
+2021-02-03 17:41:16,658 DEBUG   SenderThread:25130 [sender.py:send_request():99] send_request: status
+2021-02-03 17:41:16,663 DEBUG   SenderThread:25130 [connectionpool.py:_new_conn():975] Starting new HTTPS connection (1): api.wandb.ai:443
+2021-02-03 17:41:17,229 INFO    Thread-8  :25130 [dir_watcher.py:_on_file_modified():226] file/dir modified: /home/yuanchaoyi/TPlinker-joint-extraction/wandb/run-20210203_173752-2rkucosd/files/output.log
+2021-02-03 17:41:17,236 DEBUG   SenderThread:25130 [connectionpool.py:_make_request():461] https://api.wandb.ai:443 "POST /graphql HTTP/1.1" 200 None
+2021-02-03 17:41:18,231 INFO    Thread-8  :25130 [dir_watcher.py:_on_file_modified():226] file/dir modified: /home/yuanchaoyi/TPlinker-joint-extraction/wandb/run-20210203_173752-2rkucosd/files/output.log
+2021-02-03 17:41:19,227 DEBUG   SenderThread:25130 [sender.py:send():90] send: stats
+2021-02-03 17:41:19,231 INFO    Thread-8  :25130 [dir_watcher.py:_on_file_modified():226] file/dir modified: /home/yuanchaoyi/TPlinker-joint-extraction/wandb/run-20210203_173752-2rkucosd/files/output.log
+2021-02-03 17:41:20,232 INFO    Thread-8  :25130 [dir_watcher.py:_on_file_modified():226] file/dir modified: /home/yuanchaoyi/TPlinker-joint-extraction/wandb/run-20210203_173752-2rkucosd/files/output.log
+2021-02-03 17:41:21,233 INFO    Thread-8  :25130 [dir_watcher.py:_on_file_modified():226] file/dir modified: /home/yuanchaoyi/TPlinker-joint-extraction/wandb/run-20210203_173752-2rkucosd/files/output.log
+2021-02-03 17:41:22,234 INFO    Thread-8  :25130 [dir_watcher.py:_on_file_modified():226] file/dir modified: /home/yuanchaoyi/TPlinker-joint-extraction/wandb/run-20210203_173752-2rkucosd/files/output.log
+2021-02-03 17:41:24,236 INFO    Thread-8  :25130 [dir_watcher.py:_on_file_modified():226] file/dir modified: /home/yuanchaoyi/TPlinker-joint-extraction/wandb/run-20210203_173752-2rkucosd/files/output.log
+2021-02-03 17:41:24,754 DEBUG   SenderThread:25130 [sender.py:send():90] send: stats
+2021-02-03 17:41:25,015 DEBUG   Thread-5  :25130 [connectionpool.py:_make_request():461] https://api.wandb.ai:443 "POST /files/yuanchaoyi/baidu_relation/2rkucosd/file_stream HTTP/1.1" 200 None
+2021-02-03 17:41:25,237 INFO    Thread-8  :25130 [dir_watcher.py:_on_file_modified():226] file/dir modified: /home/yuanchaoyi/TPlinker-joint-extraction/wandb/run-20210203_173752-2rkucosd/files/output.log
+2021-02-03 17:41:26,239 INFO    Thread-8  :25130 [dir_watcher.py:_on_file_modified():226] file/dir modified: /home/yuanchaoyi/TPlinker-joint-extraction/wandb/run-20210203_173752-2rkucosd/files/output.log
+2021-02-03 17:41:26,677 DEBUG   SenderThread:25130 [sender.py:send():90] send: history
+2021-02-03 17:41:26,678 DEBUG   SenderThread:25130 [sender.py:send():90] send: summary
+2021-02-03 17:41:26,682 INFO    SenderThread:25130 [sender.py:_save_file():568] saving file wandb-summary.json with policy end
+2021-02-03 17:41:27,239 INFO    Thread-8  :25130 [dir_watcher.py:_on_file_modified():226] file/dir modified: /home/yuanchaoyi/TPlinker-joint-extraction/wandb/run-20210203_173752-2rkucosd/files/wandb-summary.json
+2021-02-03 17:41:27,240 INFO    Thread-8  :25130 [dir_watcher.py:_on_file_modified():226] file/dir modified: /home/yuanchaoyi/TPlinker-joint-extraction/wandb/run-20210203_173752-2rkucosd/files/output.log
+2021-02-03 17:41:28,240 INFO    Thread-8  :25130 [dir_watcher.py:_on_file_modified():226] file/dir modified: /home/yuanchaoyi/TPlinker-joint-extraction/wandb/run-20210203_173752-2rkucosd/files/output.log
+2021-02-03 17:41:29,242 INFO    Thread-8  :25130 [dir_watcher.py:_on_file_modified():226] file/dir modified: /home/yuanchaoyi/TPlinker-joint-extraction/wandb/run-20210203_173752-2rkucosd/files/output.log
+2021-02-03 17:41:30,275 INFO    Thread-8  :25130 [dir_watcher.py:_on_file_modified():226] file/dir modified: /home/yuanchaoyi/TPlinker-joint-extraction/wandb/run-20210203_173752-2rkucosd/files/output.log
+2021-02-03 17:41:30,293 DEBUG   SenderThread:25130 [sender.py:send():90] send: stats
+2021-02-03 17:41:31,275 INFO    Thread-8  :25130 [dir_watcher.py:_on_file_modified():226] file/dir modified: /home/yuanchaoyi/TPlinker-joint-extraction/wandb/run-20210203_173752-2rkucosd/files/output.log
+2021-02-03 17:41:32,241 DEBUG   HandlerThread:25130 [handler.py:handle_request():55] handle_request: status
+2021-02-03 17:41:32,242 DEBUG   SenderThread:25130 [sender.py:send():90] send: request
+2021-02-03 17:41:32,242 DEBUG   SenderThread:25130 [sender.py:send_request():99] send_request: status
+2021-02-03 17:41:32,265 DEBUG   SenderThread:25130 [connectionpool.py:_new_conn():975] Starting new HTTPS connection (1): api.wandb.ai:443
+2021-02-03 17:41:32,675 DEBUG   SenderThread:25130 [connectionpool.py:_make_request():461] https://api.wandb.ai:443 "POST /graphql HTTP/1.1" 200 None
+2021-02-03 17:41:33,277 INFO    Thread-8  :25130 [dir_watcher.py:_on_file_modified():226] file/dir modified: /home/yuanchaoyi/TPlinker-joint-extraction/wandb/run-20210203_173752-2rkucosd/files/output.log
+2021-02-03 17:41:34,278 INFO    Thread-8  :25130 [dir_watcher.py:_on_file_modified():226] file/dir modified: /home/yuanchaoyi/TPlinker-joint-extraction/wandb/run-20210203_173752-2rkucosd/files/output.log
+2021-02-03 17:41:35,279 INFO    Thread-8  :25130 [dir_watcher.py:_on_file_modified():226] file/dir modified: /home/yuanchaoyi/TPlinker-joint-extraction/wandb/run-20210203_173752-2rkucosd/files/output.log
+2021-02-03 17:41:35,876 DEBUG   SenderThread:25130 [sender.py:send():90] send: stats
+2021-02-03 17:41:36,200 DEBUG   Thread-5  :25130 [connectionpool.py:_make_request():461] https://api.wandb.ai:443 "POST /files/yuanchaoyi/baidu_relation/2rkucosd/file_stream HTTP/1.1" 200 None
+2021-02-03 17:41:36,280 INFO    Thread-8  :25130 [dir_watcher.py:_on_file_modified():226] file/dir modified: /home/yuanchaoyi/TPlinker-joint-extraction/wandb/run-20210203_173752-2rkucosd/files/output.log
+2021-02-03 17:41:37,281 INFO    Thread-8  :25130 [dir_watcher.py:_on_file_modified():226] file/dir modified: /home/yuanchaoyi/TPlinker-joint-extraction/wandb/run-20210203_173752-2rkucosd/files/output.log
+2021-02-03 17:41:38,111 DEBUG   SenderThread:25130 [sender.py:send():90] send: history
+2021-02-03 17:41:38,112 DEBUG   SenderThread:25130 [sender.py:send():90] send: summary
+2021-02-03 17:41:38,147 INFO    SenderThread:25130 [sender.py:_save_file():568] saving file wandb-summary.json with policy end
+2021-02-03 17:41:38,282 INFO    Thread-8  :25130 [dir_watcher.py:_on_file_modified():226] file/dir modified: /home/yuanchaoyi/TPlinker-joint-extraction/wandb/run-20210203_173752-2rkucosd/files/wandb-summary.json
+2021-02-03 17:41:38,282 INFO    Thread-8  :25130 [dir_watcher.py:_on_file_modified():226] file/dir modified: /home/yuanchaoyi/TPlinker-joint-extraction/wandb/run-20210203_173752-2rkucosd/files/output.log
+2021-02-03 17:41:39,282 INFO    Thread-8  :25130 [dir_watcher.py:_on_file_modified():226] file/dir modified: /home/yuanchaoyi/TPlinker-joint-extraction/wandb/run-20210203_173752-2rkucosd/files/output.log
+2021-02-03 17:41:41,284 INFO    Thread-8  :25130 [dir_watcher.py:_on_file_modified():226] file/dir modified: /home/yuanchaoyi/TPlinker-joint-extraction/wandb/run-20210203_173752-2rkucosd/files/output.log
+2021-02-03 17:41:41,380 DEBUG   SenderThread:25130 [sender.py:send():90] send: stats
+2021-02-03 17:41:42,285 INFO    Thread-8  :25130 [dir_watcher.py:_on_file_modified():226] file/dir modified: /home/yuanchaoyi/TPlinker-joint-extraction/wandb/run-20210203_173752-2rkucosd/files/output.log
+2021-02-03 17:41:43,287 INFO    Thread-8  :25130 [dir_watcher.py:_on_file_modified():226] file/dir modified: /home/yuanchaoyi/TPlinker-joint-extraction/wandb/run-20210203_173752-2rkucosd/files/output.log
+2021-02-03 17:41:44,287 INFO    Thread-8  :25130 [dir_watcher.py:_on_file_modified():226] file/dir modified: /home/yuanchaoyi/TPlinker-joint-extraction/wandb/run-20210203_173752-2rkucosd/files/output.log
+2021-02-03 17:41:45,289 INFO    Thread-8  :25130 [dir_watcher.py:_on_file_modified():226] file/dir modified: /home/yuanchaoyi/TPlinker-joint-extraction/wandb/run-20210203_173752-2rkucosd/files/output.log
+2021-02-03 17:41:46,290 INFO    Thread-8  :25130 [dir_watcher.py:_on_file_modified():226] file/dir modified: /home/yuanchaoyi/TPlinker-joint-extraction/wandb/run-20210203_173752-2rkucosd/files/output.log
+2021-02-03 17:41:46,907 DEBUG   SenderThread:25130 [sender.py:send():90] send: stats
+2021-02-03 17:41:47,172 DEBUG   Thread-5  :25130 [connectionpool.py:_make_request():461] https://api.wandb.ai:443 "POST /files/yuanchaoyi/baidu_relation/2rkucosd/file_stream HTTP/1.1" 200 None
+2021-02-03 17:41:47,679 DEBUG   HandlerThread:25130 [handler.py:handle_request():55] handle_request: status
+2021-02-03 17:41:47,680 DEBUG   SenderThread:25130 [sender.py:send():90] send: request
+2021-02-03 17:41:47,690 DEBUG   SenderThread:25130 [sender.py:send_request():99] send_request: status
+2021-02-03 17:41:47,695 DEBUG   SenderThread:25130 [connectionpool.py:_new_conn():975] Starting new HTTPS connection (1): api.wandb.ai:443
+2021-02-03 17:41:48,115 DEBUG   SenderThread:25130 [connectionpool.py:_make_request():461] https://api.wandb.ai:443 "POST /graphql HTTP/1.1" 200 None
+2021-02-03 17:41:48,292 INFO    Thread-8  :25130 [dir_watcher.py:_on_file_modified():226] file/dir modified: /home/yuanchaoyi/TPlinker-joint-extraction/wandb/run-20210203_173752-2rkucosd/files/output.log
+2021-02-03 17:41:49,293 INFO    Thread-8  :25130 [dir_watcher.py:_on_file_modified():226] file/dir modified: /home/yuanchaoyi/TPlinker-joint-extraction/wandb/run-20210203_173752-2rkucosd/files/output.log
+2021-02-03 17:41:49,770 DEBUG   SenderThread:25130 [sender.py:send():90] send: history
+2021-02-03 17:41:49,771 DEBUG   SenderThread:25130 [sender.py:send():90] send: summary
+2021-02-03 17:41:49,775 INFO    SenderThread:25130 [sender.py:_save_file():568] saving file wandb-summary.json with policy end
+2021-02-03 17:41:50,294 INFO    Thread-8  :25130 [dir_watcher.py:_on_file_modified():226] file/dir modified: /home/yuanchaoyi/TPlinker-joint-extraction/wandb/run-20210203_173752-2rkucosd/files/wandb-summary.json
+2021-02-03 17:41:50,294 INFO    Thread-8  :25130 [dir_watcher.py:_on_file_modified():226] file/dir modified: /home/yuanchaoyi/TPlinker-joint-extraction/wandb/run-20210203_173752-2rkucosd/files/output.log
+2021-02-03 17:41:51,295 INFO    Thread-8  :25130 [dir_watcher.py:_on_file_modified():226] file/dir modified: /home/yuanchaoyi/TPlinker-joint-extraction/wandb/run-20210203_173752-2rkucosd/files/output.log
+2021-02-03 17:41:52,296 INFO    Thread-8  :25130 [dir_watcher.py:_on_file_modified():226] file/dir modified: /home/yuanchaoyi/TPlinker-joint-extraction/wandb/run-20210203_173752-2rkucosd/files/output.log
+2021-02-03 17:41:52,429 DEBUG   SenderThread:25130 [sender.py:send():90] send: stats
+2021-02-03 17:41:53,297 INFO    Thread-8  :25130 [dir_watcher.py:_on_file_modified():226] file/dir modified: /home/yuanchaoyi/TPlinker-joint-extraction/wandb/run-20210203_173752-2rkucosd/files/output.log
+2021-02-03 17:41:54,298 INFO    Thread-8  :25130 [dir_watcher.py:_on_file_modified():226] file/dir modified: /home/yuanchaoyi/TPlinker-joint-extraction/wandb/run-20210203_173752-2rkucosd/files/output.log
+2021-02-03 17:41:56,300 INFO    Thread-8  :25130 [dir_watcher.py:_on_file_modified():226] file/dir modified: /home/yuanchaoyi/TPlinker-joint-extraction/wandb/run-20210203_173752-2rkucosd/files/output.log
+2021-02-03 17:41:57,301 INFO    Thread-8  :25130 [dir_watcher.py:_on_file_modified():226] file/dir modified: /home/yuanchaoyi/TPlinker-joint-extraction/wandb/run-20210203_173752-2rkucosd/files/output.log
+2021-02-03 17:41:57,932 DEBUG   SenderThread:25130 [sender.py:send():90] send: stats
+2021-02-03 17:41:58,204 DEBUG   Thread-5  :25130 [connectionpool.py:_make_request():461] https://api.wandb.ai:443 "POST /files/yuanchaoyi/baidu_relation/2rkucosd/file_stream HTTP/1.1" 200 None
+2021-02-03 17:41:58,302 INFO    Thread-8  :25130 [dir_watcher.py:_on_file_modified():226] file/dir modified: /home/yuanchaoyi/TPlinker-joint-extraction/wandb/run-20210203_173752-2rkucosd/files/output.log
+2021-02-03 17:41:59,303 INFO    Thread-8  :25130 [dir_watcher.py:_on_file_modified():226] file/dir modified: /home/yuanchaoyi/TPlinker-joint-extraction/wandb/run-20210203_173752-2rkucosd/files/output.log
+2021-02-03 17:42:00,304 INFO    Thread-8  :25130 [dir_watcher.py:_on_file_modified():226] file/dir modified: /home/yuanchaoyi/TPlinker-joint-extraction/wandb/run-20210203_173752-2rkucosd/files/output.log
+2021-02-03 17:42:01,162 DEBUG   SenderThread:25130 [sender.py:send():90] send: history
+2021-02-03 17:42:01,162 DEBUG   SenderThread:25130 [sender.py:send():90] send: summary
+2021-02-03 17:42:01,167 INFO    SenderThread:25130 [sender.py:_save_file():568] saving file wandb-summary.json with policy end
+2021-02-03 17:42:01,305 INFO    Thread-8  :25130 [dir_watcher.py:_on_file_modified():226] file/dir modified: /home/yuanchaoyi/TPlinker-joint-extraction/wandb/run-20210203_173752-2rkucosd/files/wandb-summary.json
+2021-02-03 17:42:01,306 INFO    Thread-8  :25130 [dir_watcher.py:_on_file_modified():226] file/dir modified: /home/yuanchaoyi/TPlinker-joint-extraction/wandb/run-20210203_173752-2rkucosd/files/output.log
+2021-02-03 17:42:02,306 INFO    Thread-8  :25130 [dir_watcher.py:_on_file_modified():226] file/dir modified: /home/yuanchaoyi/TPlinker-joint-extraction/wandb/run-20210203_173752-2rkucosd/files/output.log
+2021-02-03 17:42:03,119 DEBUG   HandlerThread:25130 [handler.py:handle_request():55] handle_request: status
+2021-02-03 17:42:03,120 DEBUG   SenderThread:25130 [sender.py:send():90] send: request
+2021-02-03 17:42:03,124 DEBUG   SenderThread:25130 [sender.py:send_request():99] send_request: status
+2021-02-03 17:42:03,130 DEBUG   SenderThread:25130 [connectionpool.py:_new_conn():975] Starting new HTTPS connection (1): api.wandb.ai:443
+2021-02-03 17:42:03,518 DEBUG   SenderThread:25130 [connectionpool.py:_make_request():461] https://api.wandb.ai:443 "POST /graphql HTTP/1.1" 200 None
+2021-02-03 17:42:03,522 DEBUG   SenderThread:25130 [sender.py:send():90] send: stats
+2021-02-03 17:42:04,308 INFO    Thread-8  :25130 [dir_watcher.py:_on_file_modified():226] file/dir modified: /home/yuanchaoyi/TPlinker-joint-extraction/wandb/run-20210203_173752-2rkucosd/files/output.log
+2021-02-03 17:42:05,310 INFO    Thread-8  :25130 [dir_watcher.py:_on_file_modified():226] file/dir modified: /home/yuanchaoyi/TPlinker-joint-extraction/wandb/run-20210203_173752-2rkucosd/files/output.log
+2021-02-03 17:42:06,311 INFO    Thread-8  :25130 [dir_watcher.py:_on_file_modified():226] file/dir modified: /home/yuanchaoyi/TPlinker-joint-extraction/wandb/run-20210203_173752-2rkucosd/files/output.log
+2021-02-03 17:42:07,312 INFO    Thread-8  :25130 [dir_watcher.py:_on_file_modified():226] file/dir modified: /home/yuanchaoyi/TPlinker-joint-extraction/wandb/run-20210203_173752-2rkucosd/files/output.log
+2021-02-03 17:42:08,313 INFO    Thread-8  :25130 [dir_watcher.py:_on_file_modified():226] file/dir modified: /home/yuanchaoyi/TPlinker-joint-extraction/wandb/run-20210203_173752-2rkucosd/files/output.log
+2021-02-03 17:42:08,951 DEBUG   SenderThread:25130 [sender.py:send():90] send: stats
+2021-02-03 17:42:09,213 DEBUG   Thread-5  :25130 [connectionpool.py:_make_request():461] https://api.wandb.ai:443 "POST /files/yuanchaoyi/baidu_relation/2rkucosd/file_stream HTTP/1.1" 200 None
+2021-02-03 17:42:09,313 INFO    Thread-8  :25130 [dir_watcher.py:_on_file_modified():226] file/dir modified: /home/yuanchaoyi/TPlinker-joint-extraction/wandb/run-20210203_173752-2rkucosd/files/output.log
+2021-02-03 17:42:10,314 INFO    Thread-8  :25130 [dir_watcher.py:_on_file_modified():226] file/dir modified: /home/yuanchaoyi/TPlinker-joint-extraction/wandb/run-20210203_173752-2rkucosd/files/output.log
+2021-02-03 17:42:12,316 INFO    Thread-8  :25130 [dir_watcher.py:_on_file_modified():226] file/dir modified: /home/yuanchaoyi/TPlinker-joint-extraction/wandb/run-20210203_173752-2rkucosd/files/output.log
+2021-02-03 17:42:12,551 DEBUG   SenderThread:25130 [sender.py:send():90] send: history
+2021-02-03 17:42:12,552 DEBUG   SenderThread:25130 [sender.py:send():90] send: summary
+2021-02-03 17:42:12,578 INFO    SenderThread:25130 [sender.py:_save_file():568] saving file wandb-summary.json with policy end
+2021-02-03 17:42:13,317 INFO    Thread-8  :25130 [dir_watcher.py:_on_file_modified():226] file/dir modified: /home/yuanchaoyi/TPlinker-joint-extraction/wandb/run-20210203_173752-2rkucosd/files/wandb-summary.json
+2021-02-03 17:42:13,318 INFO    Thread-8  :25130 [dir_watcher.py:_on_file_modified():226] file/dir modified: /home/yuanchaoyi/TPlinker-joint-extraction/wandb/run-20210203_173752-2rkucosd/files/output.log
+2021-02-03 17:42:14,318 INFO    Thread-8  :25130 [dir_watcher.py:_on_file_modified():226] file/dir modified: /home/yuanchaoyi/TPlinker-joint-extraction/wandb/run-20210203_173752-2rkucosd/files/output.log
+2021-02-03 17:42:14,477 DEBUG   SenderThread:25130 [sender.py:send():90] send: stats
+2021-02-03 17:42:15,319 INFO    Thread-8  :25130 [dir_watcher.py:_on_file_modified():226] file/dir modified: /home/yuanchaoyi/TPlinker-joint-extraction/wandb/run-20210203_173752-2rkucosd/files/output.log
+2021-02-03 17:42:16,320 INFO    Thread-8  :25130 [dir_watcher.py:_on_file_modified():226] file/dir modified: /home/yuanchaoyi/TPlinker-joint-extraction/wandb/run-20210203_173752-2rkucosd/files/output.log
+2021-02-03 17:42:17,321 INFO    Thread-8  :25130 [dir_watcher.py:_on_file_modified():226] file/dir modified: /home/yuanchaoyi/TPlinker-joint-extraction/wandb/run-20210203_173752-2rkucosd/files/output.log
+2021-02-03 17:42:18,523 DEBUG   HandlerThread:25130 [handler.py:handle_request():55] handle_request: status
+2021-02-03 17:42:18,524 DEBUG   SenderThread:25130 [sender.py:send():90] send: request
+2021-02-03 17:42:18,547 DEBUG   SenderThread:25130 [sender.py:send_request():99] send_request: status
+2021-02-03 17:42:18,561 DEBUG   SenderThread:25130 [connectionpool.py:_new_conn():975] Starting new HTTPS connection (1): api.wandb.ai:443
+2021-02-03 17:42:19,323 INFO    Thread-8  :25130 [dir_watcher.py:_on_file_modified():226] file/dir modified: /home/yuanchaoyi/TPlinker-joint-extraction/wandb/run-20210203_173752-2rkucosd/files/output.log
+2021-02-03 17:42:20,197 DEBUG   SenderThread:25130 [connectionpool.py:_make_request():461] https://api.wandb.ai:443 "POST /graphql HTTP/1.1" 200 None
+2021-02-03 17:42:20,201 DEBUG   SenderThread:25130 [sender.py:send():90] send: stats
+2021-02-03 17:42:20,323 INFO    Thread-8  :25130 [dir_watcher.py:_on_file_modified():226] file/dir modified: /home/yuanchaoyi/TPlinker-joint-extraction/wandb/run-20210203_173752-2rkucosd/files/output.log
+2021-02-03 17:42:20,463 DEBUG   Thread-5  :25130 [connectionpool.py:_make_request():461] https://api.wandb.ai:443 "POST /files/yuanchaoyi/baidu_relation/2rkucosd/file_stream HTTP/1.1" 200 None
+2021-02-03 17:42:21,324 INFO    Thread-8  :25130 [dir_watcher.py:_on_file_modified():226] file/dir modified: /home/yuanchaoyi/TPlinker-joint-extraction/wandb/run-20210203_173752-2rkucosd/files/output.log
+2021-02-03 17:42:22,325 INFO    Thread-8  :25130 [dir_watcher.py:_on_file_modified():226] file/dir modified: /home/yuanchaoyi/TPlinker-joint-extraction/wandb/run-20210203_173752-2rkucosd/files/output.log
+2021-02-03 17:42:23,327 INFO    Thread-8  :25130 [dir_watcher.py:_on_file_modified():226] file/dir modified: /home/yuanchaoyi/TPlinker-joint-extraction/wandb/run-20210203_173752-2rkucosd/files/output.log
+2021-02-03 17:42:24,221 DEBUG   SenderThread:25130 [sender.py:send():90] send: history
+2021-02-03 17:42:24,221 DEBUG   SenderThread:25130 [sender.py:send():90] send: summary
+2021-02-03 17:42:24,258 INFO    SenderThread:25130 [sender.py:_save_file():568] saving file wandb-summary.json with policy end
+2021-02-03 17:42:24,327 INFO    Thread-8  :25130 [dir_watcher.py:_on_file_modified():226] file/dir modified: /home/yuanchaoyi/TPlinker-joint-extraction/wandb/run-20210203_173752-2rkucosd/files/wandb-summary.json
+2021-02-03 17:42:24,328 INFO    Thread-8  :25130 [dir_watcher.py:_on_file_modified():226] file/dir modified: /home/yuanchaoyi/TPlinker-joint-extraction/wandb/run-20210203_173752-2rkucosd/files/output.log
+2021-02-03 17:42:25,527 DEBUG   SenderThread:25130 [sender.py:send():90] send: stats
+2021-02-03 17:42:26,330 INFO    Thread-8  :25130 [dir_watcher.py:_on_file_modified():226] file/dir modified: /home/yuanchaoyi/TPlinker-joint-extraction/wandb/run-20210203_173752-2rkucosd/files/output.log
+2021-02-03 17:42:27,331 INFO    Thread-8  :25130 [dir_watcher.py:_on_file_modified():226] file/dir modified: /home/yuanchaoyi/TPlinker-joint-extraction/wandb/run-20210203_173752-2rkucosd/files/output.log
+2021-02-03 17:42:28,332 INFO    Thread-8  :25130 [dir_watcher.py:_on_file_modified():226] file/dir modified: /home/yuanchaoyi/TPlinker-joint-extraction/wandb/run-20210203_173752-2rkucosd/files/output.log
+2021-02-03 17:42:29,333 INFO    Thread-8  :25130 [dir_watcher.py:_on_file_modified():226] file/dir modified: /home/yuanchaoyi/TPlinker-joint-extraction/wandb/run-20210203_173752-2rkucosd/files/output.log
+2021-02-03 17:42:30,334 INFO    Thread-8  :25130 [dir_watcher.py:_on_file_modified():226] file/dir modified: /home/yuanchaoyi/TPlinker-joint-extraction/wandb/run-20210203_173752-2rkucosd/files/output.log
+2021-02-03 17:42:31,001 DEBUG   SenderThread:25130 [sender.py:send():90] send: stats
+2021-02-03 17:42:31,278 DEBUG   Thread-5  :25130 [connectionpool.py:_make_request():461] https://api.wandb.ai:443 "POST /files/yuanchaoyi/baidu_relation/2rkucosd/file_stream HTTP/1.1" 200 None
+2021-02-03 17:42:31,335 INFO    Thread-8  :25130 [dir_watcher.py:_on_file_modified():226] file/dir modified: /home/yuanchaoyi/TPlinker-joint-extraction/wandb/run-20210203_173752-2rkucosd/files/output.log
+2021-02-03 17:42:32,336 INFO    Thread-8  :25130 [dir_watcher.py:_on_file_modified():226] file/dir modified: /home/yuanchaoyi/TPlinker-joint-extraction/wandb/run-20210203_173752-2rkucosd/files/output.log
+2021-02-03 17:42:34,338 INFO    Thread-8  :25130 [dir_watcher.py:_on_file_modified():226] file/dir modified: /home/yuanchaoyi/TPlinker-joint-extraction/wandb/run-20210203_173752-2rkucosd/files/output.log
+2021-02-03 17:42:35,202 DEBUG   HandlerThread:25130 [handler.py:handle_request():55] handle_request: status
+2021-02-03 17:42:35,203 DEBUG   SenderThread:25130 [sender.py:send():90] send: request
+2021-02-03 17:42:35,207 DEBUG   SenderThread:25130 [sender.py:send_request():99] send_request: status
+2021-02-03 17:42:35,213 DEBUG   SenderThread:25130 [connectionpool.py:_new_conn():975] Starting new HTTPS connection (1): api.wandb.ai:443
+2021-02-03 17:42:35,339 INFO    Thread-8  :25130 [dir_watcher.py:_on_file_modified():226] file/dir modified: /home/yuanchaoyi/TPlinker-joint-extraction/wandb/run-20210203_173752-2rkucosd/files/output.log
+2021-02-03 17:42:36,340 INFO    Thread-8  :25130 [dir_watcher.py:_on_file_modified():226] file/dir modified: /home/yuanchaoyi/TPlinker-joint-extraction/wandb/run-20210203_173752-2rkucosd/files/output.log
+2021-02-03 17:42:37,208 DEBUG   SenderThread:25130 [connectionpool.py:_make_request():461] https://api.wandb.ai:443 "POST /graphql HTTP/1.1" 200 None
+2021-02-03 17:42:37,211 DEBUG   SenderThread:25130 [sender.py:send():90] send: history
+2021-02-03 17:42:37,211 DEBUG   SenderThread:25130 [sender.py:send():90] send: summary
+2021-02-03 17:42:37,251 INFO    SenderThread:25130 [sender.py:_save_file():568] saving file wandb-summary.json with policy end
+2021-02-03 17:42:37,252 DEBUG   SenderThread:25130 [sender.py:send():90] send: stats
+2021-02-03 17:42:37,341 INFO    Thread-8  :25130 [dir_watcher.py:_on_file_modified():226] file/dir modified: /home/yuanchaoyi/TPlinker-joint-extraction/wandb/run-20210203_173752-2rkucosd/files/wandb-summary.json
+2021-02-03 17:42:37,341 INFO    Thread-8  :25130 [dir_watcher.py:_on_file_modified():226] file/dir modified: /home/yuanchaoyi/TPlinker-joint-extraction/wandb/run-20210203_173752-2rkucosd/files/output.log
+2021-02-03 17:42:38,341 INFO    Thread-8  :25130 [dir_watcher.py:_on_file_modified():226] file/dir modified: /home/yuanchaoyi/TPlinker-joint-extraction/wandb/run-20210203_173752-2rkucosd/files/output.log
+2021-02-03 17:42:39,343 INFO    Thread-8  :25130 [dir_watcher.py:_on_file_modified():226] file/dir modified: /home/yuanchaoyi/TPlinker-joint-extraction/wandb/run-20210203_173752-2rkucosd/files/output.log
+2021-02-03 17:42:40,344 INFO    Thread-8  :25130 [dir_watcher.py:_on_file_modified():226] file/dir modified: /home/yuanchaoyi/TPlinker-joint-extraction/wandb/run-20210203_173752-2rkucosd/files/output.log
+2021-02-03 17:42:42,079 DEBUG   SenderThread:25130 [sender.py:send():90] send: stats
+2021-02-03 17:42:42,336 DEBUG   Thread-5  :25130 [connectionpool.py:_make_request():461] https://api.wandb.ai:443 "POST /files/yuanchaoyi/baidu_relation/2rkucosd/file_stream HTTP/1.1" 200 None
+2021-02-03 17:42:42,345 INFO    Thread-8  :25130 [dir_watcher.py:_on_file_modified():226] file/dir modified: /home/yuanchaoyi/TPlinker-joint-extraction/wandb/run-20210203_173752-2rkucosd/files/output.log
+2021-02-03 17:42:43,346 INFO    Thread-8  :25130 [dir_watcher.py:_on_file_modified():226] file/dir modified: /home/yuanchaoyi/TPlinker-joint-extraction/wandb/run-20210203_173752-2rkucosd/files/output.log
+2021-02-03 17:42:44,347 INFO    Thread-8  :25130 [dir_watcher.py:_on_file_modified():226] file/dir modified: /home/yuanchaoyi/TPlinker-joint-extraction/wandb/run-20210203_173752-2rkucosd/files/output.log
+2021-02-03 17:42:45,348 INFO    Thread-8  :25130 [dir_watcher.py:_on_file_modified():226] file/dir modified: /home/yuanchaoyi/TPlinker-joint-extraction/wandb/run-20210203_173752-2rkucosd/files/output.log
+2021-02-03 17:42:46,350 INFO    Thread-8  :25130 [dir_watcher.py:_on_file_modified():226] file/dir modified: /home/yuanchaoyi/TPlinker-joint-extraction/wandb/run-20210203_173752-2rkucosd/files/output.log
+2021-02-03 17:42:47,049 DEBUG   SenderThread:25130 [sender.py:send():90] send: history
+2021-02-03 17:42:47,050 DEBUG   SenderThread:25130 [sender.py:send():90] send: summary
+2021-02-03 17:42:47,093 INFO    SenderThread:25130 [sender.py:_save_file():568] saving file wandb-summary.json with policy end
+2021-02-03 17:42:47,351 INFO    Thread-8  :25130 [dir_watcher.py:_on_file_modified():226] file/dir modified: /home/yuanchaoyi/TPlinker-joint-extraction/wandb/run-20210203_173752-2rkucosd/files/wandb-summary.json
+2021-02-03 17:42:47,351 INFO    Thread-8  :25130 [dir_watcher.py:_on_file_modified():226] file/dir modified: /home/yuanchaoyi/TPlinker-joint-extraction/wandb/run-20210203_173752-2rkucosd/files/output.log
+2021-02-03 17:42:47,564 DEBUG   SenderThread:25130 [sender.py:send():90] send: stats
+2021-02-03 17:42:48,351 INFO    Thread-8  :25130 [dir_watcher.py:_on_file_modified():226] file/dir modified: /home/yuanchaoyi/TPlinker-joint-extraction/wandb/run-20210203_173752-2rkucosd/files/output.log
+2021-02-03 17:42:49,355 INFO    Thread-8  :25130 [dir_watcher.py:_on_file_modified():226] file/dir modified: /home/yuanchaoyi/TPlinker-joint-extraction/wandb/run-20210203_173752-2rkucosd/files/output.log
+2021-02-03 17:42:51,357 INFO    Thread-8  :25130 [dir_watcher.py:_on_file_modified():226] file/dir modified: /home/yuanchaoyi/TPlinker-joint-extraction/wandb/run-20210203_173752-2rkucosd/files/output.log
+2021-02-03 17:42:52,213 DEBUG   HandlerThread:25130 [handler.py:handle_request():55] handle_request: status
+2021-02-03 17:42:52,213 DEBUG   SenderThread:25130 [sender.py:send():90] send: request
+2021-02-03 17:42:52,215 DEBUG   SenderThread:25130 [sender.py:send_request():99] send_request: status
+2021-02-03 17:42:52,238 DEBUG   SenderThread:25130 [connectionpool.py:_new_conn():975] Starting new HTTPS connection (1): api.wandb.ai:443
+2021-02-03 17:42:52,357 INFO    Thread-8  :25130 [dir_watcher.py:_on_file_modified():226] file/dir modified: /home/yuanchaoyi/TPlinker-joint-extraction/wandb/run-20210203_173752-2rkucosd/files/output.log
+2021-02-03 17:42:53,359 INFO    Thread-8  :25130 [dir_watcher.py:_on_file_modified():226] file/dir modified: /home/yuanchaoyi/TPlinker-joint-extraction/wandb/run-20210203_173752-2rkucosd/files/output.log
+2021-02-03 17:42:53,650 DEBUG   SenderThread:25130 [connectionpool.py:_make_request():461] https://api.wandb.ai:443 "POST /graphql HTTP/1.1" 200 None
+2021-02-03 17:42:53,654 DEBUG   SenderThread:25130 [sender.py:send():90] send: stats
+2021-02-03 17:42:54,360 INFO    Thread-8  :25130 [dir_watcher.py:_on_file_modified():226] file/dir modified: /home/yuanchaoyi/TPlinker-joint-extraction/wandb/run-20210203_173752-2rkucosd/files/output.log
+2021-02-03 17:42:55,361 INFO    Thread-8  :25130 [dir_watcher.py:_on_file_modified():226] file/dir modified: /home/yuanchaoyi/TPlinker-joint-extraction/wandb/run-20210203_173752-2rkucosd/files/output.log
+2021-02-03 17:42:56,362 INFO    Thread-8  :25130 [dir_watcher.py:_on_file_modified():226] file/dir modified: /home/yuanchaoyi/TPlinker-joint-extraction/wandb/run-20210203_173752-2rkucosd/files/output.log
+2021-02-03 17:42:58,364 INFO    Thread-8  :25130 [dir_watcher.py:_on_file_modified():226] file/dir modified: /home/yuanchaoyi/TPlinker-joint-extraction/wandb/run-20210203_173752-2rkucosd/files/output.log
+2021-02-03 17:42:58,617 DEBUG   SenderThread:25130 [sender.py:send():90] send: history
+2021-02-03 17:42:58,618 DEBUG   SenderThread:25130 [sender.py:send():90] send: summary
+2021-02-03 17:42:58,648 INFO    SenderThread:25130 [sender.py:_save_file():568] saving file wandb-summary.json with policy end
+2021-02-03 17:42:58,648 DEBUG   SenderThread:25130 [sender.py:send():90] send: stats
+2021-02-03 17:42:59,365 INFO    Thread-8  :25130 [dir_watcher.py:_on_file_modified():226] file/dir modified: /home/yuanchaoyi/TPlinker-joint-extraction/wandb/run-20210203_173752-2rkucosd/files/wandb-summary.json
+2021-02-03 17:42:59,366 INFO    Thread-8  :25130 [dir_watcher.py:_on_file_modified():226] file/dir modified: /home/yuanchaoyi/TPlinker-joint-extraction/wandb/run-20210203_173752-2rkucosd/files/output.log
+2021-02-03 17:43:00,366 INFO    Thread-8  :25130 [dir_watcher.py:_on_file_modified():226] file/dir modified: /home/yuanchaoyi/TPlinker-joint-extraction/wandb/run-20210203_173752-2rkucosd/files/output.log
+2021-02-03 17:43:01,367 INFO    Thread-8  :25130 [dir_watcher.py:_on_file_modified():226] file/dir modified: /home/yuanchaoyi/TPlinker-joint-extraction/wandb/run-20210203_173752-2rkucosd/files/output.log
+2021-02-03 17:43:02,369 INFO    Thread-8  :25130 [dir_watcher.py:_on_file_modified():226] file/dir modified: /home/yuanchaoyi/TPlinker-joint-extraction/wandb/run-20210203_173752-2rkucosd/files/output.log
+2021-02-03 17:43:03,370 INFO    Thread-8  :25130 [dir_watcher.py:_on_file_modified():226] file/dir modified: /home/yuanchaoyi/TPlinker-joint-extraction/wandb/run-20210203_173752-2rkucosd/files/output.log
+2021-02-03 17:43:04,073 DEBUG   SenderThread:25130 [sender.py:send():90] send: stats
+2021-02-03 17:43:04,370 INFO    Thread-8  :25130 [dir_watcher.py:_on_file_modified():226] file/dir modified: /home/yuanchaoyi/TPlinker-joint-extraction/wandb/run-20210203_173752-2rkucosd/files/output.log
+2021-02-03 17:43:06,372 INFO    Thread-8  :25130 [dir_watcher.py:_on_file_modified():226] file/dir modified: /home/yuanchaoyi/TPlinker-joint-extraction/wandb/run-20210203_173752-2rkucosd/files/output.log
+2021-02-03 17:43:07,373 INFO    Thread-8  :25130 [dir_watcher.py:_on_file_modified():226] file/dir modified: /home/yuanchaoyi/TPlinker-joint-extraction/wandb/run-20210203_173752-2rkucosd/files/output.log
+2021-02-03 17:43:08,375 INFO    Thread-8  :25130 [dir_watcher.py:_on_file_modified():226] file/dir modified: /home/yuanchaoyi/TPlinker-joint-extraction/wandb/run-20210203_173752-2rkucosd/files/output.log
+2021-02-03 17:43:08,657 DEBUG   HandlerThread:25130 [handler.py:handle_request():55] handle_request: status
+2021-02-03 17:43:08,658 DEBUG   SenderThread:25130 [sender.py:send():90] send: request
+2021-02-03 17:43:08,660 DEBUG   SenderThread:25130 [sender.py:send_request():99] send_request: status
+2021-02-03 17:43:08,670 DEBUG   SenderThread:25130 [connectionpool.py:_new_conn():975] Starting new HTTPS connection (1): api.wandb.ai:443
+2021-02-03 17:43:09,375 INFO    Thread-8  :25130 [dir_watcher.py:_on_file_modified():226] file/dir modified: /home/yuanchaoyi/TPlinker-joint-extraction/wandb/run-20210203_173752-2rkucosd/files/output.log
+2021-02-03 17:43:10,376 INFO    Thread-8  :25130 [dir_watcher.py:_on_file_modified():226] file/dir modified: /home/yuanchaoyi/TPlinker-joint-extraction/wandb/run-20210203_173752-2rkucosd/files/output.log
+2021-02-03 17:43:11,377 INFO    Thread-8  :25130 [dir_watcher.py:_on_file_modified():226] file/dir modified: /home/yuanchaoyi/TPlinker-joint-extraction/wandb/run-20210203_173752-2rkucosd/files/output.log
+2021-02-03 17:43:11,548 DEBUG   SenderThread:25130 [connectionpool.py:_make_request():461] https://api.wandb.ai:443 "POST /graphql HTTP/1.1" 200 None
+2021-02-03 17:43:11,552 DEBUG   SenderThread:25130 [sender.py:send():90] send: stats
+2021-02-03 17:43:11,554 DEBUG   SenderThread:25130 [sender.py:send():90] send: history
+2021-02-03 17:43:11,554 DEBUG   SenderThread:25130 [sender.py:send():90] send: summary
+2021-02-03 17:43:11,606 INFO    SenderThread:25130 [sender.py:_save_file():568] saving file wandb-summary.json with policy end
+2021-02-03 17:43:12,378 INFO    Thread-8  :25130 [dir_watcher.py:_on_file_modified():226] file/dir modified: /home/yuanchaoyi/TPlinker-joint-extraction/wandb/run-20210203_173752-2rkucosd/files/wandb-summary.json
+2021-02-03 17:43:13,379 INFO    Thread-8  :25130 [dir_watcher.py:_on_file_modified():226] file/dir modified: /home/yuanchaoyi/TPlinker-joint-extraction/wandb/run-20210203_173752-2rkucosd/files/output.log
+2021-02-03 17:43:14,379 INFO    Thread-8  :25130 [dir_watcher.py:_on_file_modified():226] file/dir modified: /home/yuanchaoyi/TPlinker-joint-extraction/wandb/run-20210203_173752-2rkucosd/files/output.log
+2021-02-03 17:43:15,166 DEBUG   SenderThread:25130 [sender.py:send():90] send: stats
+2021-02-03 17:43:15,380 INFO    Thread-8  :25130 [dir_watcher.py:_on_file_modified():226] file/dir modified: /home/yuanchaoyi/TPlinker-joint-extraction/wandb/run-20210203_173752-2rkucosd/files/output.log
+2021-02-03 17:43:15,472 DEBUG   Thread-5  :25130 [connectionpool.py:_make_request():461] https://api.wandb.ai:443 "POST /files/yuanchaoyi/baidu_relation/2rkucosd/file_stream HTTP/1.1" 200 None
+2021-02-03 17:43:16,381 INFO    Thread-8  :25130 [dir_watcher.py:_on_file_modified():226] file/dir modified: /home/yuanchaoyi/TPlinker-joint-extraction/wandb/run-20210203_173752-2rkucosd/files/output.log
+2021-02-03 17:43:17,383 INFO    Thread-8  :25130 [dir_watcher.py:_on_file_modified():226] file/dir modified: /home/yuanchaoyi/TPlinker-joint-extraction/wandb/run-20210203_173752-2rkucosd/files/output.log
+2021-02-03 17:43:18,383 INFO    Thread-8  :25130 [dir_watcher.py:_on_file_modified():226] file/dir modified: /home/yuanchaoyi/TPlinker-joint-extraction/wandb/run-20210203_173752-2rkucosd/files/output.log
+2021-02-03 17:43:19,384 INFO    Thread-8  :25130 [dir_watcher.py:_on_file_modified():226] file/dir modified: /home/yuanchaoyi/TPlinker-joint-extraction/wandb/run-20210203_173752-2rkucosd/files/output.log
+2021-02-03 17:43:20,392 INFO    Thread-8  :25130 [dir_watcher.py:_on_file_modified():226] file/dir modified: /home/yuanchaoyi/TPlinker-joint-extraction/wandb/run-20210203_173752-2rkucosd/files/output.log
+2021-02-03 17:43:20,682 DEBUG   SenderThread:25130 [sender.py:send():90] send: stats
+2021-02-03 17:43:21,488 DEBUG   SenderThread:25130 [sender.py:send():90] send: history
+2021-02-03 17:43:21,488 DEBUG   SenderThread:25130 [sender.py:send():90] send: summary
+2021-02-03 17:43:21,509 INFO    SenderThread:25130 [sender.py:_save_file():568] saving file wandb-summary.json with policy end
+2021-02-03 17:43:22,395 INFO    Thread-8  :25130 [dir_watcher.py:_on_file_modified():226] file/dir modified: /home/yuanchaoyi/TPlinker-joint-extraction/wandb/run-20210203_173752-2rkucosd/files/wandb-summary.json
+2021-02-03 17:43:22,396 INFO    Thread-8  :25130 [dir_watcher.py:_on_file_modified():226] file/dir modified: /home/yuanchaoyi/TPlinker-joint-extraction/wandb/run-20210203_173752-2rkucosd/files/output.log
+2021-02-03 17:43:23,395 INFO    Thread-8  :25130 [dir_watcher.py:_on_file_modified():226] file/dir modified: /home/yuanchaoyi/TPlinker-joint-extraction/wandb/run-20210203_173752-2rkucosd/files/output.log
+2021-02-03 17:43:24,396 INFO    Thread-8  :25130 [dir_watcher.py:_on_file_modified():226] file/dir modified: /home/yuanchaoyi/TPlinker-joint-extraction/wandb/run-20210203_173752-2rkucosd/files/output.log
+2021-02-03 17:43:25,397 INFO    Thread-8  :25130 [dir_watcher.py:_on_file_modified():226] file/dir modified: /home/yuanchaoyi/TPlinker-joint-extraction/wandb/run-20210203_173752-2rkucosd/files/output.log
+2021-02-03 17:43:26,235 DEBUG   SenderThread:25130 [sender.py:send():90] send: stats
+2021-02-03 17:43:26,398 INFO    Thread-8  :25130 [dir_watcher.py:_on_file_modified():226] file/dir modified: /home/yuanchaoyi/TPlinker-joint-extraction/wandb/run-20210203_173752-2rkucosd/files/output.log
+2021-02-03 17:43:26,554 DEBUG   HandlerThread:25130 [handler.py:handle_request():55] handle_request: status
+2021-02-03 17:43:26,555 DEBUG   SenderThread:25130 [sender.py:send():90] send: request
+2021-02-03 17:43:26,557 DEBUG   SenderThread:25130 [sender.py:send_request():99] send_request: status
+2021-02-03 17:43:26,564 DEBUG   SenderThread:25130 [connectionpool.py:_new_conn():975] Starting new HTTPS connection (1): api.wandb.ai:443
+2021-02-03 17:43:26,984 DEBUG   SenderThread:25130 [connectionpool.py:_make_request():461] https://api.wandb.ai:443 "POST /graphql HTTP/1.1" 200 None
+2021-02-03 17:43:27,399 INFO    Thread-8  :25130 [dir_watcher.py:_on_file_modified():226] file/dir modified: /home/yuanchaoyi/TPlinker-joint-extraction/wandb/run-20210203_173752-2rkucosd/files/output.log
+2021-02-03 17:43:28,401 INFO    Thread-8  :25130 [dir_watcher.py:_on_file_modified():226] file/dir modified: /home/yuanchaoyi/TPlinker-joint-extraction/wandb/run-20210203_173752-2rkucosd/files/output.log
+2021-02-03 17:43:30,403 INFO    Thread-8  :25130 [dir_watcher.py:_on_file_modified():226] file/dir modified: /home/yuanchaoyi/TPlinker-joint-extraction/wandb/run-20210203_173752-2rkucosd/files/output.log
+2021-02-03 17:43:31,404 INFO    Thread-8  :25130 [dir_watcher.py:_on_file_modified():226] file/dir modified: /home/yuanchaoyi/TPlinker-joint-extraction/wandb/run-20210203_173752-2rkucosd/files/output.log
+2021-02-03 17:43:31,793 DEBUG   SenderThread:25130 [sender.py:send():90] send: stats
+2021-02-03 17:43:32,405 INFO    Thread-8  :25130 [dir_watcher.py:_on_file_modified():226] file/dir modified: /home/yuanchaoyi/TPlinker-joint-extraction/wandb/run-20210203_173752-2rkucosd/files/output.log
+2021-02-03 17:43:32,911 DEBUG   SenderThread:25130 [sender.py:send():90] send: history
+2021-02-03 17:43:32,912 DEBUG   SenderThread:25130 [sender.py:send():90] send: summary
+2021-02-03 17:43:32,917 INFO    SenderThread:25130 [sender.py:_save_file():568] saving file wandb-summary.json with policy end
+2021-02-03 17:43:33,407 INFO    Thread-8  :25130 [dir_watcher.py:_on_file_modified():226] file/dir modified: /home/yuanchaoyi/TPlinker-joint-extraction/wandb/run-20210203_173752-2rkucosd/files/wandb-summary.json
+2021-02-03 17:43:33,408 INFO    Thread-8  :25130 [dir_watcher.py:_on_file_modified():226] file/dir modified: /home/yuanchaoyi/TPlinker-joint-extraction/wandb/run-20210203_173752-2rkucosd/files/output.log
+2021-02-03 17:43:34,407 INFO    Thread-8  :25130 [dir_watcher.py:_on_file_modified():226] file/dir modified: /home/yuanchaoyi/TPlinker-joint-extraction/wandb/run-20210203_173752-2rkucosd/files/output.log
+2021-02-03 17:43:35,408 INFO    Thread-8  :25130 [dir_watcher.py:_on_file_modified():226] file/dir modified: /home/yuanchaoyi/TPlinker-joint-extraction/wandb/run-20210203_173752-2rkucosd/files/output.log
+2021-02-03 17:43:36,409 INFO    Thread-8  :25130 [dir_watcher.py:_on_file_modified():226] file/dir modified: /home/yuanchaoyi/TPlinker-joint-extraction/wandb/run-20210203_173752-2rkucosd/files/output.log
+2021-02-03 17:43:37,324 DEBUG   SenderThread:25130 [sender.py:send():90] send: stats
+2021-02-03 17:43:38,411 INFO    Thread-8  :25130 [dir_watcher.py:_on_file_modified():226] file/dir modified: /home/yuanchaoyi/TPlinker-joint-extraction/wandb/run-20210203_173752-2rkucosd/files/output.log
+2021-02-03 17:43:39,412 INFO    Thread-8  :25130 [dir_watcher.py:_on_file_modified():226] file/dir modified: /home/yuanchaoyi/TPlinker-joint-extraction/wandb/run-20210203_173752-2rkucosd/files/output.log
+2021-02-03 17:43:40,413 INFO    Thread-8  :25130 [dir_watcher.py:_on_file_modified():226] file/dir modified: /home/yuanchaoyi/TPlinker-joint-extraction/wandb/run-20210203_173752-2rkucosd/files/output.log
+2021-02-03 17:43:41,414 INFO    Thread-8  :25130 [dir_watcher.py:_on_file_modified():226] file/dir modified: /home/yuanchaoyi/TPlinker-joint-extraction/wandb/run-20210203_173752-2rkucosd/files/output.log
+2021-02-03 17:43:41,988 DEBUG   HandlerThread:25130 [handler.py:handle_request():55] handle_request: status
+2021-02-03 17:43:41,989 DEBUG   SenderThread:25130 [sender.py:send():90] send: request
+2021-02-03 17:43:41,991 DEBUG   SenderThread:25130 [sender.py:send_request():99] send_request: status
+2021-02-03 17:43:42,022 DEBUG   SenderThread:25130 [connectionpool.py:_new_conn():975] Starting new HTTPS connection (1): api.wandb.ai:443
+2021-02-03 17:43:42,415 INFO    Thread-8  :25130 [dir_watcher.py:_on_file_modified():226] file/dir modified: /home/yuanchaoyi/TPlinker-joint-extraction/wandb/run-20210203_173752-2rkucosd/files/output.log
+2021-02-03 17:43:42,416 DEBUG   SenderThread:25130 [connectionpool.py:_make_request():461] https://api.wandb.ai:443 "POST /graphql HTTP/1.1" 200 None
+2021-02-03 17:43:42,888 DEBUG   SenderThread:25130 [sender.py:send():90] send: stats
+2021-02-03 17:43:43,416 INFO    Thread-8  :25130 [dir_watcher.py:_on_file_modified():226] file/dir modified: /home/yuanchaoyi/TPlinker-joint-extraction/wandb/run-20210203_173752-2rkucosd/files/output.log
+2021-02-03 17:43:44,375 DEBUG   SenderThread:25130 [sender.py:send():90] send: history
+2021-02-03 17:43:44,375 DEBUG   SenderThread:25130 [sender.py:send():90] send: summary
+2021-02-03 17:43:44,404 INFO    SenderThread:25130 [sender.py:_save_file():568] saving file wandb-summary.json with policy end
+2021-02-03 17:43:44,417 INFO    Thread-8  :25130 [dir_watcher.py:_on_file_modified():226] file/dir modified: /home/yuanchaoyi/TPlinker-joint-extraction/wandb/run-20210203_173752-2rkucosd/files/wandb-summary.json
+2021-02-03 17:43:44,417 INFO    Thread-8  :25130 [dir_watcher.py:_on_file_modified():226] file/dir modified: /home/yuanchaoyi/TPlinker-joint-extraction/wandb/run-20210203_173752-2rkucosd/files/output.log
+2021-02-03 17:43:46,419 INFO    Thread-8  :25130 [dir_watcher.py:_on_file_modified():226] file/dir modified: /home/yuanchaoyi/TPlinker-joint-extraction/wandb/run-20210203_173752-2rkucosd/files/output.log
+2021-02-03 17:43:47,420 INFO    Thread-8  :25130 [dir_watcher.py:_on_file_modified():226] file/dir modified: /home/yuanchaoyi/TPlinker-joint-extraction/wandb/run-20210203_173752-2rkucosd/files/output.log
+2021-02-03 17:43:48,421 INFO    Thread-8  :25130 [dir_watcher.py:_on_file_modified():226] file/dir modified: /home/yuanchaoyi/TPlinker-joint-extraction/wandb/run-20210203_173752-2rkucosd/files/output.log
+2021-02-03 17:43:48,425 DEBUG   SenderThread:25130 [sender.py:send():90] send: stats
+2021-02-03 17:43:48,729 DEBUG   Thread-5  :25130 [connectionpool.py:_make_request():461] https://api.wandb.ai:443 "POST /files/yuanchaoyi/baidu_relation/2rkucosd/file_stream HTTP/1.1" 200 None
+2021-02-03 17:43:49,422 INFO    Thread-8  :25130 [dir_watcher.py:_on_file_modified():226] file/dir modified: /home/yuanchaoyi/TPlinker-joint-extraction/wandb/run-20210203_173752-2rkucosd/files/output.log
+2021-02-03 17:43:50,423 INFO    Thread-8  :25130 [dir_watcher.py:_on_file_modified():226] file/dir modified: /home/yuanchaoyi/TPlinker-joint-extraction/wandb/run-20210203_173752-2rkucosd/files/output.log
+2021-02-03 17:43:51,424 INFO    Thread-8  :25130 [dir_watcher.py:_on_file_modified():226] file/dir modified: /home/yuanchaoyi/TPlinker-joint-extraction/wandb/run-20210203_173752-2rkucosd/files/output.log
+2021-02-03 17:43:52,424 INFO    Thread-8  :25130 [dir_watcher.py:_on_file_modified():226] file/dir modified: /home/yuanchaoyi/TPlinker-joint-extraction/wandb/run-20210203_173752-2rkucosd/files/output.log
+2021-02-03 17:43:53,926 DEBUG   SenderThread:25130 [sender.py:send():90] send: stats
+2021-02-03 17:43:54,446 INFO    Thread-8  :25130 [dir_watcher.py:_on_file_modified():226] file/dir modified: /home/yuanchaoyi/TPlinker-joint-extraction/wandb/run-20210203_173752-2rkucosd/files/output.log
+2021-02-03 17:43:55,447 INFO    Thread-8  :25130 [dir_watcher.py:_on_file_modified():226] file/dir modified: /home/yuanchaoyi/TPlinker-joint-extraction/wandb/run-20210203_173752-2rkucosd/files/output.log
+2021-02-03 17:43:55,805 DEBUG   SenderThread:25130 [sender.py:send():90] send: history
+2021-02-03 17:43:55,806 DEBUG   SenderThread:25130 [sender.py:send():90] send: summary
+2021-02-03 17:43:55,819 INFO    SenderThread:25130 [sender.py:_save_file():568] saving file wandb-summary.json with policy end
+2021-02-03 17:43:56,448 INFO    Thread-8  :25130 [dir_watcher.py:_on_file_modified():226] file/dir modified: /home/yuanchaoyi/TPlinker-joint-extraction/wandb/run-20210203_173752-2rkucosd/files/wandb-summary.json
+2021-02-03 17:43:56,448 INFO    Thread-8  :25130 [dir_watcher.py:_on_file_modified():226] file/dir modified: /home/yuanchaoyi/TPlinker-joint-extraction/wandb/run-20210203_173752-2rkucosd/files/output.log
+2021-02-03 17:43:57,421 DEBUG   HandlerThread:25130 [handler.py:handle_request():55] handle_request: status
+2021-02-03 17:43:57,421 DEBUG   SenderThread:25130 [sender.py:send():90] send: request
+2021-02-03 17:43:57,422 DEBUG   SenderThread:25130 [sender.py:send_request():99] send_request: status
+2021-02-03 17:43:57,427 DEBUG   SenderThread:25130 [connectionpool.py:_new_conn():975] Starting new HTTPS connection (1): api.wandb.ai:443
+2021-02-03 17:43:57,449 INFO    Thread-8  :25130 [dir_watcher.py:_on_file_modified():226] file/dir modified: /home/yuanchaoyi/TPlinker-joint-extraction/wandb/run-20210203_173752-2rkucosd/files/output.log
+2021-02-03 17:43:57,822 DEBUG   SenderThread:25130 [connectionpool.py:_make_request():461] https://api.wandb.ai:443 "POST /graphql HTTP/1.1" 200 None
+2021-02-03 17:43:58,450 INFO    Thread-8  :25130 [dir_watcher.py:_on_file_modified():226] file/dir modified: /home/yuanchaoyi/TPlinker-joint-extraction/wandb/run-20210203_173752-2rkucosd/files/output.log
+2021-02-03 17:43:59,451 INFO    Thread-8  :25130 [dir_watcher.py:_on_file_modified():226] file/dir modified: /home/yuanchaoyi/TPlinker-joint-extraction/wandb/run-20210203_173752-2rkucosd/files/output.log
+2021-02-03 17:43:59,520 DEBUG   SenderThread:25130 [sender.py:send():90] send: stats
+2021-02-03 17:44:00,451 INFO    Thread-8  :25130 [dir_watcher.py:_on_file_modified():226] file/dir modified: /home/yuanchaoyi/TPlinker-joint-extraction/wandb/run-20210203_173752-2rkucosd/files/output.log
+2021-02-03 17:44:02,454 INFO    Thread-8  :25130 [dir_watcher.py:_on_file_modified():226] file/dir modified: /home/yuanchaoyi/TPlinker-joint-extraction/wandb/run-20210203_173752-2rkucosd/files/output.log
+2021-02-03 17:44:03,455 INFO    Thread-8  :25130 [dir_watcher.py:_on_file_modified():226] file/dir modified: /home/yuanchaoyi/TPlinker-joint-extraction/wandb/run-20210203_173752-2rkucosd/files/output.log
+2021-02-03 17:44:04,455 INFO    Thread-8  :25130 [dir_watcher.py:_on_file_modified():226] file/dir modified: /home/yuanchaoyi/TPlinker-joint-extraction/wandb/run-20210203_173752-2rkucosd/files/output.log
+2021-02-03 17:44:04,964 DEBUG   SenderThread:25130 [sender.py:send():90] send: stats
+2021-02-03 17:44:05,456 INFO    Thread-8  :25130 [dir_watcher.py:_on_file_modified():226] file/dir modified: /home/yuanchaoyi/TPlinker-joint-extraction/wandb/run-20210203_173752-2rkucosd/files/output.log
+2021-02-03 17:44:06,458 INFO    Thread-8  :25130 [dir_watcher.py:_on_file_modified():226] file/dir modified: /home/yuanchaoyi/TPlinker-joint-extraction/wandb/run-20210203_173752-2rkucosd/files/output.log
+2021-02-03 17:44:07,369 DEBUG   SenderThread:25130 [sender.py:send():90] send: history
+2021-02-03 17:44:07,369 DEBUG   SenderThread:25130 [sender.py:send():90] send: summary
+2021-02-03 17:44:07,425 INFO    SenderThread:25130 [sender.py:_save_file():568] saving file wandb-summary.json with policy end
+2021-02-03 17:44:07,458 INFO    Thread-8  :25130 [dir_watcher.py:_on_file_modified():226] file/dir modified: /home/yuanchaoyi/TPlinker-joint-extraction/wandb/run-20210203_173752-2rkucosd/files/wandb-summary.json
+2021-02-03 17:44:07,459 INFO    Thread-8  :25130 [dir_watcher.py:_on_file_modified():226] file/dir modified: /home/yuanchaoyi/TPlinker-joint-extraction/wandb/run-20210203_173752-2rkucosd/files/output.log
+2021-02-03 17:44:09,460 INFO    Thread-8  :25130 [dir_watcher.py:_on_file_modified():226] file/dir modified: /home/yuanchaoyi/TPlinker-joint-extraction/wandb/run-20210203_173752-2rkucosd/files/output.log
+2021-02-03 17:44:10,461 INFO    Thread-8  :25130 [dir_watcher.py:_on_file_modified():226] file/dir modified: /home/yuanchaoyi/TPlinker-joint-extraction/wandb/run-20210203_173752-2rkucosd/files/output.log
+2021-02-03 17:44:10,525 DEBUG   SenderThread:25130 [sender.py:send():90] send: stats
+2021-02-03 17:44:11,462 INFO    Thread-8  :25130 [dir_watcher.py:_on_file_modified():226] file/dir modified: /home/yuanchaoyi/TPlinker-joint-extraction/wandb/run-20210203_173752-2rkucosd/files/output.log
+2021-02-03 17:44:12,463 INFO    Thread-8  :25130 [dir_watcher.py:_on_file_modified():226] file/dir modified: /home/yuanchaoyi/TPlinker-joint-extraction/wandb/run-20210203_173752-2rkucosd/files/output.log
+2021-02-03 17:44:12,828 DEBUG   HandlerThread:25130 [handler.py:handle_request():55] handle_request: status
+2021-02-03 17:44:12,829 DEBUG   SenderThread:25130 [sender.py:send():90] send: request
+2021-02-03 17:44:12,830 DEBUG   SenderThread:25130 [sender.py:send_request():99] send_request: status
+2021-02-03 17:44:12,838 DEBUG   SenderThread:25130 [connectionpool.py:_new_conn():975] Starting new HTTPS connection (1): api.wandb.ai:443
+2021-02-03 17:44:13,237 DEBUG   SenderThread:25130 [connectionpool.py:_make_request():461] https://api.wandb.ai:443 "POST /graphql HTTP/1.1" 200 None
+2021-02-03 17:44:13,464 INFO    Thread-8  :25130 [dir_watcher.py:_on_file_modified():226] file/dir modified: /home/yuanchaoyi/TPlinker-joint-extraction/wandb/run-20210203_173752-2rkucosd/files/output.log
+2021-02-03 17:44:14,465 INFO    Thread-8  :25130 [dir_watcher.py:_on_file_modified():226] file/dir modified: /home/yuanchaoyi/TPlinker-joint-extraction/wandb/run-20210203_173752-2rkucosd/files/output.log
+2021-02-03 17:44:16,049 DEBUG   SenderThread:25130 [sender.py:send():90] send: stats
+2021-02-03 17:44:16,467 INFO    Thread-8  :25130 [dir_watcher.py:_on_file_modified():226] file/dir modified: /home/yuanchaoyi/TPlinker-joint-extraction/wandb/run-20210203_173752-2rkucosd/files/output.log
+2021-02-03 17:44:17,468 INFO    Thread-8  :25130 [dir_watcher.py:_on_file_modified():226] file/dir modified: /home/yuanchaoyi/TPlinker-joint-extraction/wandb/run-20210203_173752-2rkucosd/files/output.log
+2021-02-03 17:44:18,469 INFO    Thread-8  :25130 [dir_watcher.py:_on_file_modified():226] file/dir modified: /home/yuanchaoyi/TPlinker-joint-extraction/wandb/run-20210203_173752-2rkucosd/files/output.log
+2021-02-03 17:44:18,971 DEBUG   SenderThread:25130 [sender.py:send():90] send: history
+2021-02-03 17:44:18,971 DEBUG   SenderThread:25130 [sender.py:send():90] send: summary
+2021-02-03 17:44:18,978 INFO    SenderThread:25130 [sender.py:_save_file():568] saving file wandb-summary.json with policy end
+2021-02-03 17:44:19,266 DEBUG   Thread-5  :25130 [connectionpool.py:_make_request():461] https://api.wandb.ai:443 "POST /files/yuanchaoyi/baidu_relation/2rkucosd/file_stream HTTP/1.1" 200 None
+2021-02-03 17:44:19,469 INFO    Thread-8  :25130 [dir_watcher.py:_on_file_modified():226] file/dir modified: /home/yuanchaoyi/TPlinker-joint-extraction/wandb/run-20210203_173752-2rkucosd/files/wandb-summary.json
+2021-02-03 17:44:19,470 INFO    Thread-8  :25130 [dir_watcher.py:_on_file_modified():226] file/dir modified: /home/yuanchaoyi/TPlinker-joint-extraction/wandb/run-20210203_173752-2rkucosd/files/output.log
+2021-02-03 17:44:20,471 INFO    Thread-8  :25130 [dir_watcher.py:_on_file_modified():226] file/dir modified: /home/yuanchaoyi/TPlinker-joint-extraction/wandb/run-20210203_173752-2rkucosd/files/output.log
+2021-02-03 17:44:21,472 INFO    Thread-8  :25130 [dir_watcher.py:_on_file_modified():226] file/dir modified: /home/yuanchaoyi/TPlinker-joint-extraction/wandb/run-20210203_173752-2rkucosd/files/output.log
+2021-02-03 17:44:21,678 DEBUG   SenderThread:25130 [sender.py:send():90] send: stats
+2021-02-03 17:44:22,472 INFO    Thread-8  :25130 [dir_watcher.py:_on_file_modified():226] file/dir modified: /home/yuanchaoyi/TPlinker-joint-extraction/wandb/run-20210203_173752-2rkucosd/files/output.log
+2021-02-03 17:44:24,474 INFO    Thread-8  :25130 [dir_watcher.py:_on_file_modified():226] file/dir modified: /home/yuanchaoyi/TPlinker-joint-extraction/wandb/run-20210203_173752-2rkucosd/files/output.log
+2021-02-03 17:44:25,476 INFO    Thread-8  :25130 [dir_watcher.py:_on_file_modified():226] file/dir modified: /home/yuanchaoyi/TPlinker-joint-extraction/wandb/run-20210203_173752-2rkucosd/files/output.log
+2021-02-03 17:44:26,477 INFO    Thread-8  :25130 [dir_watcher.py:_on_file_modified():226] file/dir modified: /home/yuanchaoyi/TPlinker-joint-extraction/wandb/run-20210203_173752-2rkucosd/files/output.log
+2021-02-03 17:44:27,269 DEBUG   SenderThread:25130 [sender.py:send():90] send: stats
+2021-02-03 17:44:27,477 INFO    Thread-8  :25130 [dir_watcher.py:_on_file_modified():226] file/dir modified: /home/yuanchaoyi/TPlinker-joint-extraction/wandb/run-20210203_173752-2rkucosd/files/output.log
+2021-02-03 17:44:28,242 DEBUG   HandlerThread:25130 [handler.py:handle_request():55] handle_request: status
+2021-02-03 17:44:28,243 DEBUG   SenderThread:25130 [sender.py:send():90] send: request
+2021-02-03 17:44:28,245 DEBUG   SenderThread:25130 [sender.py:send_request():99] send_request: status
+2021-02-03 17:44:28,251 DEBUG   SenderThread:25130 [connectionpool.py:_new_conn():975] Starting new HTTPS connection (1): api.wandb.ai:443
+2021-02-03 17:44:28,479 INFO    Thread-8  :25130 [dir_watcher.py:_on_file_modified():226] file/dir modified: /home/yuanchaoyi/TPlinker-joint-extraction/wandb/run-20210203_173752-2rkucosd/files/output.log
+2021-02-03 17:44:28,646 DEBUG   SenderThread:25130 [connectionpool.py:_make_request():461] https://api.wandb.ai:443 "POST /graphql HTTP/1.1" 200 None
+2021-02-03 17:44:29,480 INFO    Thread-8  :25130 [dir_watcher.py:_on_file_modified():226] file/dir modified: /home/yuanchaoyi/TPlinker-joint-extraction/wandb/run-20210203_173752-2rkucosd/files/output.log
+2021-02-03 17:44:30,399 DEBUG   SenderThread:25130 [sender.py:send():90] send: history
+2021-02-03 17:44:30,399 DEBUG   SenderThread:25130 [sender.py:send():90] send: summary
+2021-02-03 17:44:30,404 INFO    SenderThread:25130 [sender.py:_save_file():568] saving file wandb-summary.json with policy end
+2021-02-03 17:44:30,480 INFO    Thread-8  :25130 [dir_watcher.py:_on_file_modified():226] file/dir modified: /home/yuanchaoyi/TPlinker-joint-extraction/wandb/run-20210203_173752-2rkucosd/files/wandb-summary.json
+2021-02-03 17:44:30,481 INFO    Thread-8  :25130 [dir_watcher.py:_on_file_modified():226] file/dir modified: /home/yuanchaoyi/TPlinker-joint-extraction/wandb/run-20210203_173752-2rkucosd/files/output.log
+2021-02-03 17:44:32,483 INFO    Thread-8  :25130 [dir_watcher.py:_on_file_modified():226] file/dir modified: /home/yuanchaoyi/TPlinker-joint-extraction/wandb/run-20210203_173752-2rkucosd/files/output.log
+2021-02-03 17:44:32,800 DEBUG   SenderThread:25130 [sender.py:send():90] send: stats
+2021-02-03 17:44:33,484 INFO    Thread-8  :25130 [dir_watcher.py:_on_file_modified():226] file/dir modified: /home/yuanchaoyi/TPlinker-joint-extraction/wandb/run-20210203_173752-2rkucosd/files/output.log
+2021-02-03 17:44:34,484 INFO    Thread-8  :25130 [dir_watcher.py:_on_file_modified():226] file/dir modified: /home/yuanchaoyi/TPlinker-joint-extraction/wandb/run-20210203_173752-2rkucosd/files/output.log
+2021-02-03 17:44:35,485 INFO    Thread-8  :25130 [dir_watcher.py:_on_file_modified():226] file/dir modified: /home/yuanchaoyi/TPlinker-joint-extraction/wandb/run-20210203_173752-2rkucosd/files/output.log
+2021-02-03 17:44:36,486 INFO    Thread-8  :25130 [dir_watcher.py:_on_file_modified():226] file/dir modified: /home/yuanchaoyi/TPlinker-joint-extraction/wandb/run-20210203_173752-2rkucosd/files/output.log
+2021-02-03 17:44:37,487 INFO    Thread-8  :25130 [dir_watcher.py:_on_file_modified():226] file/dir modified: /home/yuanchaoyi/TPlinker-joint-extraction/wandb/run-20210203_173752-2rkucosd/files/output.log
+2021-02-03 17:44:38,319 DEBUG   SenderThread:25130 [sender.py:send():90] send: stats
+2021-02-03 17:44:38,488 INFO    Thread-8  :25130 [dir_watcher.py:_on_file_modified():226] file/dir modified: /home/yuanchaoyi/TPlinker-joint-extraction/wandb/run-20210203_173752-2rkucosd/files/output.log
+2021-02-03 17:44:40,490 INFO    Thread-8  :25130 [dir_watcher.py:_on_file_modified():226] file/dir modified: /home/yuanchaoyi/TPlinker-joint-extraction/wandb/run-20210203_173752-2rkucosd/files/output.log
+2021-02-03 17:44:41,491 INFO    Thread-8  :25130 [dir_watcher.py:_on_file_modified():226] file/dir modified: /home/yuanchaoyi/TPlinker-joint-extraction/wandb/run-20210203_173752-2rkucosd/files/output.log
+2021-02-03 17:44:41,836 DEBUG   SenderThread:25130 [sender.py:send():90] send: history
+2021-02-03 17:44:41,837 DEBUG   SenderThread:25130 [sender.py:send():90] send: summary
+2021-02-03 17:44:41,876 INFO    SenderThread:25130 [sender.py:_save_file():568] saving file wandb-summary.json with policy end
+2021-02-03 17:44:42,492 INFO    Thread-8  :25130 [dir_watcher.py:_on_file_modified():226] file/dir modified: /home/yuanchaoyi/TPlinker-joint-extraction/wandb/run-20210203_173752-2rkucosd/files/wandb-summary.json
+2021-02-03 17:44:42,492 INFO    Thread-8  :25130 [dir_watcher.py:_on_file_modified():226] file/dir modified: /home/yuanchaoyi/TPlinker-joint-extraction/wandb/run-20210203_173752-2rkucosd/files/output.log
+2021-02-03 17:44:43,493 INFO    Thread-8  :25130 [dir_watcher.py:_on_file_modified():226] file/dir modified: /home/yuanchaoyi/TPlinker-joint-extraction/wandb/run-20210203_173752-2rkucosd/files/output.log
+2021-02-03 17:44:43,650 DEBUG   HandlerThread:25130 [handler.py:handle_request():55] handle_request: status
+2021-02-03 17:44:43,651 DEBUG   SenderThread:25130 [sender.py:send():90] send: request
+2021-02-03 17:44:43,652 DEBUG   SenderThread:25130 [sender.py:send_request():99] send_request: status
+2021-02-03 17:44:43,659 DEBUG   SenderThread:25130 [connectionpool.py:_new_conn():975] Starting new HTTPS connection (1): api.wandb.ai:443
+2021-02-03 17:44:44,086 DEBUG   SenderThread:25130 [connectionpool.py:_make_request():461] https://api.wandb.ai:443 "POST /graphql HTTP/1.1" 200 None
+2021-02-03 17:44:44,090 DEBUG   SenderThread:25130 [sender.py:send():90] send: stats
+2021-02-03 17:44:44,494 INFO    Thread-8  :25130 [dir_watcher.py:_on_file_modified():226] file/dir modified: /home/yuanchaoyi/TPlinker-joint-extraction/wandb/run-20210203_173752-2rkucosd/files/output.log
+2021-02-03 17:44:45,494 INFO    Thread-8  :25130 [dir_watcher.py:_on_file_modified():226] file/dir modified: /home/yuanchaoyi/TPlinker-joint-extraction/wandb/run-20210203_173752-2rkucosd/files/output.log
+2021-02-03 17:44:46,496 INFO    Thread-8  :25130 [dir_watcher.py:_on_file_modified():226] file/dir modified: /home/yuanchaoyi/TPlinker-joint-extraction/wandb/run-20210203_173752-2rkucosd/files/output.log
+2021-02-03 17:44:48,497 INFO    Thread-8  :25130 [dir_watcher.py:_on_file_modified():226] file/dir modified: /home/yuanchaoyi/TPlinker-joint-extraction/wandb/run-20210203_173752-2rkucosd/files/output.log
+2021-02-03 17:44:49,378 DEBUG   SenderThread:25130 [sender.py:send():90] send: stats
+2021-02-03 17:44:49,498 INFO    Thread-8  :25130 [dir_watcher.py:_on_file_modified():226] file/dir modified: /home/yuanchaoyi/TPlinker-joint-extraction/wandb/run-20210203_173752-2rkucosd/files/output.log
+2021-02-03 17:44:49,677 DEBUG   Thread-5  :25130 [connectionpool.py:_make_request():461] https://api.wandb.ai:443 "POST /files/yuanchaoyi/baidu_relation/2rkucosd/file_stream HTTP/1.1" 200 None
+2021-02-03 17:44:50,499 INFO    Thread-8  :25130 [dir_watcher.py:_on_file_modified():226] file/dir modified: /home/yuanchaoyi/TPlinker-joint-extraction/wandb/run-20210203_173752-2rkucosd/files/output.log
+2021-02-03 17:44:51,500 INFO    Thread-8  :25130 [dir_watcher.py:_on_file_modified():226] file/dir modified: /home/yuanchaoyi/TPlinker-joint-extraction/wandb/run-20210203_173752-2rkucosd/files/output.log
+2021-02-03 17:44:52,500 INFO    Thread-8  :25130 [dir_watcher.py:_on_file_modified():226] file/dir modified: /home/yuanchaoyi/TPlinker-joint-extraction/wandb/run-20210203_173752-2rkucosd/files/output.log
+2021-02-03 17:44:53,142 DEBUG   SenderThread:25130 [sender.py:send():90] send: history
+2021-02-03 17:44:53,143 DEBUG   SenderThread:25130 [sender.py:send():90] send: summary
+2021-02-03 17:44:53,147 INFO    SenderThread:25130 [sender.py:_save_file():568] saving file wandb-summary.json with policy end
+2021-02-03 17:44:53,502 INFO    Thread-8  :25130 [dir_watcher.py:_on_file_modified():226] file/dir modified: /home/yuanchaoyi/TPlinker-joint-extraction/wandb/run-20210203_173752-2rkucosd/files/wandb-summary.json
+2021-02-03 17:44:53,503 INFO    Thread-8  :25130 [dir_watcher.py:_on_file_modified():226] file/dir modified: /home/yuanchaoyi/TPlinker-joint-extraction/wandb/run-20210203_173752-2rkucosd/files/output.log
+2021-02-03 17:44:54,503 INFO    Thread-8  :25130 [dir_watcher.py:_on_file_modified():226] file/dir modified: /home/yuanchaoyi/TPlinker-joint-extraction/wandb/run-20210203_173752-2rkucosd/files/output.log
+2021-02-03 17:44:54,905 DEBUG   SenderThread:25130 [sender.py:send():90] send: stats
+2021-02-03 17:44:55,504 INFO    Thread-8  :25130 [dir_watcher.py:_on_file_modified():226] file/dir modified: /home/yuanchaoyi/TPlinker-joint-extraction/wandb/run-20210203_173752-2rkucosd/files/output.log
+2021-02-03 17:44:57,506 INFO    Thread-8  :25130 [dir_watcher.py:_on_file_modified():226] file/dir modified: /home/yuanchaoyi/TPlinker-joint-extraction/wandb/run-20210203_173752-2rkucosd/files/output.log
+2021-02-03 17:44:58,507 INFO    Thread-8  :25130 [dir_watcher.py:_on_file_modified():226] file/dir modified: /home/yuanchaoyi/TPlinker-joint-extraction/wandb/run-20210203_173752-2rkucosd/files/output.log
+2021-02-03 17:44:59,092 DEBUG   HandlerThread:25130 [handler.py:handle_request():55] handle_request: status
+2021-02-03 17:44:59,093 DEBUG   SenderThread:25130 [sender.py:send():90] send: request
+2021-02-03 17:44:59,095 DEBUG   SenderThread:25130 [sender.py:send_request():99] send_request: status
+2021-02-03 17:44:59,101 DEBUG   SenderThread:25130 [connectionpool.py:_new_conn():975] Starting new HTTPS connection (1): api.wandb.ai:443
+2021-02-03 17:44:59,495 DEBUG   SenderThread:25130 [connectionpool.py:_make_request():461] https://api.wandb.ai:443 "POST /graphql HTTP/1.1" 200 None
+2021-02-03 17:44:59,507 INFO    Thread-8  :25130 [dir_watcher.py:_on_file_modified():226] file/dir modified: /home/yuanchaoyi/TPlinker-joint-extraction/wandb/run-20210203_173752-2rkucosd/files/output.log
+2021-02-03 17:45:00,457 DEBUG   SenderThread:25130 [sender.py:send():90] send: stats
+2021-02-03 17:45:00,508 INFO    Thread-8  :25130 [dir_watcher.py:_on_file_modified():226] file/dir modified: /home/yuanchaoyi/TPlinker-joint-extraction/wandb/run-20210203_173752-2rkucosd/files/output.log
+2021-02-03 17:45:01,509 INFO    Thread-8  :25130 [dir_watcher.py:_on_file_modified():226] file/dir modified: /home/yuanchaoyi/TPlinker-joint-extraction/wandb/run-20210203_173752-2rkucosd/files/output.log
+2021-02-03 17:45:02,510 INFO    Thread-8  :25130 [dir_watcher.py:_on_file_modified():226] file/dir modified: /home/yuanchaoyi/TPlinker-joint-extraction/wandb/run-20210203_173752-2rkucosd/files/output.log
+2021-02-03 17:45:03,510 INFO    Thread-8  :25130 [dir_watcher.py:_on_file_modified():226] file/dir modified: /home/yuanchaoyi/TPlinker-joint-extraction/wandb/run-20210203_173752-2rkucosd/files/output.log
+2021-02-03 17:45:04,546 DEBUG   SenderThread:25130 [sender.py:send():90] send: history
+2021-02-03 17:45:04,546 DEBUG   SenderThread:25130 [sender.py:send():90] send: summary
+2021-02-03 17:45:04,590 INFO    SenderThread:25130 [sender.py:_save_file():568] saving file wandb-summary.json with policy end
+2021-02-03 17:45:05,512 INFO    Thread-8  :25130 [dir_watcher.py:_on_file_modified():226] file/dir modified: /home/yuanchaoyi/TPlinker-joint-extraction/wandb/run-20210203_173752-2rkucosd/files/wandb-summary.json
+2021-02-03 17:45:05,512 INFO    Thread-8  :25130 [dir_watcher.py:_on_file_modified():226] file/dir modified: /home/yuanchaoyi/TPlinker-joint-extraction/wandb/run-20210203_173752-2rkucosd/files/output.log
+2021-02-03 17:45:06,008 DEBUG   SenderThread:25130 [sender.py:send():90] send: stats
+2021-02-03 17:45:06,513 INFO    Thread-8  :25130 [dir_watcher.py:_on_file_modified():226] file/dir modified: /home/yuanchaoyi/TPlinker-joint-extraction/wandb/run-20210203_173752-2rkucosd/files/output.log
+2021-02-03 17:45:07,514 INFO    Thread-8  :25130 [dir_watcher.py:_on_file_modified():226] file/dir modified: /home/yuanchaoyi/TPlinker-joint-extraction/wandb/run-20210203_173752-2rkucosd/files/output.log
+2021-02-03 17:45:08,515 INFO    Thread-8  :25130 [dir_watcher.py:_on_file_modified():226] file/dir modified: /home/yuanchaoyi/TPlinker-joint-extraction/wandb/run-20210203_173752-2rkucosd/files/output.log
+2021-02-03 17:45:09,516 INFO    Thread-8  :25130 [dir_watcher.py:_on_file_modified():226] file/dir modified: /home/yuanchaoyi/TPlinker-joint-extraction/wandb/run-20210203_173752-2rkucosd/files/output.log
+2021-02-03 17:45:10,516 INFO    Thread-8  :25130 [dir_watcher.py:_on_file_modified():226] file/dir modified: /home/yuanchaoyi/TPlinker-joint-extraction/wandb/run-20210203_173752-2rkucosd/files/output.log
+2021-02-03 17:45:11,493 DEBUG   SenderThread:25130 [sender.py:send():90] send: stats
+2021-02-03 17:45:11,517 INFO    Thread-8  :25130 [dir_watcher.py:_on_file_modified():226] file/dir modified: /home/yuanchaoyi/TPlinker-joint-extraction/wandb/run-20210203_173752-2rkucosd/files/output.log
+2021-02-03 17:45:12,518 INFO    Thread-8  :25130 [dir_watcher.py:_on_file_modified():226] file/dir modified: /home/yuanchaoyi/TPlinker-joint-extraction/wandb/run-20210203_173752-2rkucosd/files/output.log
+2021-02-03 17:45:14,501 DEBUG   HandlerThread:25130 [handler.py:handle_request():55] handle_request: status
+2021-02-03 17:45:14,501 DEBUG   SenderThread:25130 [sender.py:send():90] send: request
+2021-02-03 17:45:14,503 DEBUG   SenderThread:25130 [sender.py:send_request():99] send_request: status
+2021-02-03 17:45:14,509 DEBUG   SenderThread:25130 [connectionpool.py:_new_conn():975] Starting new HTTPS connection (1): api.wandb.ai:443
+2021-02-03 17:45:14,520 INFO    Thread-8  :25130 [dir_watcher.py:_on_file_modified():226] file/dir modified: /home/yuanchaoyi/TPlinker-joint-extraction/wandb/run-20210203_173752-2rkucosd/files/output.log
+2021-02-03 17:45:14,901 DEBUG   SenderThread:25130 [connectionpool.py:_make_request():461] https://api.wandb.ai:443 "POST /graphql HTTP/1.1" 200 None
+2021-02-03 17:45:15,521 INFO    Thread-8  :25130 [dir_watcher.py:_on_file_modified():226] file/dir modified: /home/yuanchaoyi/TPlinker-joint-extraction/wandb/run-20210203_173752-2rkucosd/files/output.log
+2021-02-03 17:45:15,978 DEBUG   SenderThread:25130 [sender.py:send():90] send: history
+2021-02-03 17:45:15,979 DEBUG   SenderThread:25130 [sender.py:send():90] send: summary
+2021-02-03 17:45:16,024 INFO    SenderThread:25130 [sender.py:_save_file():568] saving file wandb-summary.json with policy end
+2021-02-03 17:45:16,522 INFO    Thread-8  :25130 [dir_watcher.py:_on_file_modified():226] file/dir modified: /home/yuanchaoyi/TPlinker-joint-extraction/wandb/run-20210203_173752-2rkucosd/files/wandb-summary.json
+2021-02-03 17:45:16,522 INFO    Thread-8  :25130 [dir_watcher.py:_on_file_modified():226] file/dir modified: /home/yuanchaoyi/TPlinker-joint-extraction/wandb/run-20210203_173752-2rkucosd/files/output.log
+2021-02-03 17:45:17,043 DEBUG   SenderThread:25130 [sender.py:send():90] send: stats
+2021-02-03 17:45:17,522 INFO    Thread-8  :25130 [dir_watcher.py:_on_file_modified():226] file/dir modified: /home/yuanchaoyi/TPlinker-joint-extraction/wandb/run-20210203_173752-2rkucosd/files/output.log
+2021-02-03 17:45:18,523 INFO    Thread-8  :25130 [dir_watcher.py:_on_file_modified():226] file/dir modified: /home/yuanchaoyi/TPlinker-joint-extraction/wandb/run-20210203_173752-2rkucosd/files/output.log
+2021-02-03 17:45:19,524 INFO    Thread-8  :25130 [dir_watcher.py:_on_file_modified():226] file/dir modified: /home/yuanchaoyi/TPlinker-joint-extraction/wandb/run-20210203_173752-2rkucosd/files/output.log
+2021-02-03 17:45:21,526 INFO    Thread-8  :25130 [dir_watcher.py:_on_file_modified():226] file/dir modified: /home/yuanchaoyi/TPlinker-joint-extraction/wandb/run-20210203_173752-2rkucosd/files/output.log
+2021-02-03 17:45:22,528 INFO    Thread-8  :25130 [dir_watcher.py:_on_file_modified():226] file/dir modified: /home/yuanchaoyi/TPlinker-joint-extraction/wandb/run-20210203_173752-2rkucosd/files/output.log
+2021-02-03 17:45:22,562 DEBUG   SenderThread:25130 [sender.py:send():90] send: stats
+2021-02-03 17:45:22,868 DEBUG   Thread-5  :25130 [connectionpool.py:_make_request():461] https://api.wandb.ai:443 "POST /files/yuanchaoyi/baidu_relation/2rkucosd/file_stream HTTP/1.1" 200 None
+2021-02-03 17:45:23,529 INFO    Thread-8  :25130 [dir_watcher.py:_on_file_modified():226] file/dir modified: /home/yuanchaoyi/TPlinker-joint-extraction/wandb/run-20210203_173752-2rkucosd/files/output.log
+2021-02-03 17:45:24,530 INFO    Thread-8  :25130 [dir_watcher.py:_on_file_modified():226] file/dir modified: /home/yuanchaoyi/TPlinker-joint-extraction/wandb/run-20210203_173752-2rkucosd/files/output.log
+2021-02-03 17:45:25,531 INFO    Thread-8  :25130 [dir_watcher.py:_on_file_modified():226] file/dir modified: /home/yuanchaoyi/TPlinker-joint-extraction/wandb/run-20210203_173752-2rkucosd/files/output.log
+2021-02-03 17:45:27,532 INFO    Thread-8  :25130 [dir_watcher.py:_on_file_modified():226] file/dir modified: /home/yuanchaoyi/TPlinker-joint-extraction/wandb/run-20210203_173752-2rkucosd/files/output.log
+2021-02-03 17:45:27,779 DEBUG   SenderThread:25130 [sender.py:send():90] send: history
+2021-02-03 17:45:27,779 DEBUG   SenderThread:25130 [sender.py:send():90] send: summary
+2021-02-03 17:45:27,784 INFO    SenderThread:25130 [sender.py:_save_file():568] saving file wandb-summary.json with policy end
+2021-02-03 17:45:28,094 DEBUG   SenderThread:25130 [sender.py:send():90] send: stats
+2021-02-03 17:45:28,534 INFO    Thread-8  :25130 [dir_watcher.py:_on_file_modified():226] file/dir modified: /home/yuanchaoyi/TPlinker-joint-extraction/wandb/run-20210203_173752-2rkucosd/files/wandb-summary.json
+2021-02-03 17:45:28,534 INFO    Thread-8  :25130 [dir_watcher.py:_on_file_modified():226] file/dir modified: /home/yuanchaoyi/TPlinker-joint-extraction/wandb/run-20210203_173752-2rkucosd/files/output.log
+2021-02-03 17:45:29,535 INFO    Thread-8  :25130 [dir_watcher.py:_on_file_modified():226] file/dir modified: /home/yuanchaoyi/TPlinker-joint-extraction/wandb/run-20210203_173752-2rkucosd/files/output.log
+2021-02-03 17:45:29,905 DEBUG   HandlerThread:25130 [handler.py:handle_request():55] handle_request: status
+2021-02-03 17:45:29,905 DEBUG   SenderThread:25130 [sender.py:send():90] send: request
+2021-02-03 17:45:29,907 DEBUG   SenderThread:25130 [sender.py:send_request():99] send_request: status
+2021-02-03 17:45:29,914 DEBUG   SenderThread:25130 [connectionpool.py:_new_conn():975] Starting new HTTPS connection (1): api.wandb.ai:443
+2021-02-03 17:45:30,312 DEBUG   SenderThread:25130 [connectionpool.py:_make_request():461] https://api.wandb.ai:443 "POST /graphql HTTP/1.1" 200 None
+2021-02-03 17:45:30,535 INFO    Thread-8  :25130 [dir_watcher.py:_on_file_modified():226] file/dir modified: /home/yuanchaoyi/TPlinker-joint-extraction/wandb/run-20210203_173752-2rkucosd/files/output.log
+2021-02-03 17:45:31,536 INFO    Thread-8  :25130 [dir_watcher.py:_on_file_modified():226] file/dir modified: /home/yuanchaoyi/TPlinker-joint-extraction/wandb/run-20210203_173752-2rkucosd/files/output.log
+2021-02-03 17:45:32,537 INFO    Thread-8  :25130 [dir_watcher.py:_on_file_modified():226] file/dir modified: /home/yuanchaoyi/TPlinker-joint-extraction/wandb/run-20210203_173752-2rkucosd/files/output.log
+2021-02-03 17:45:33,538 INFO    Thread-8  :25130 [dir_watcher.py:_on_file_modified():226] file/dir modified: /home/yuanchaoyi/TPlinker-joint-extraction/wandb/run-20210203_173752-2rkucosd/files/output.log
+2021-02-03 17:45:33,613 DEBUG   SenderThread:25130 [sender.py:send():90] send: stats
+2021-02-03 17:45:35,540 INFO    Thread-8  :25130 [dir_watcher.py:_on_file_modified():226] file/dir modified: /home/yuanchaoyi/TPlinker-joint-extraction/wandb/run-20210203_173752-2rkucosd/files/output.log
+2021-02-03 17:45:36,540 INFO    Thread-8  :25130 [dir_watcher.py:_on_file_modified():226] file/dir modified: /home/yuanchaoyi/TPlinker-joint-extraction/wandb/run-20210203_173752-2rkucosd/files/output.log
+2021-02-03 17:45:37,542 INFO    Thread-8  :25130 [dir_watcher.py:_on_file_modified():226] file/dir modified: /home/yuanchaoyi/TPlinker-joint-extraction/wandb/run-20210203_173752-2rkucosd/files/output.log
+2021-02-03 17:45:38,543 INFO    Thread-8  :25130 [dir_watcher.py:_on_file_modified():226] file/dir modified: /home/yuanchaoyi/TPlinker-joint-extraction/wandb/run-20210203_173752-2rkucosd/files/output.log
+2021-02-03 17:45:39,127 DEBUG   SenderThread:25130 [sender.py:send():90] send: stats
+2021-02-03 17:45:39,187 DEBUG   SenderThread:25130 [sender.py:send():90] send: history
+2021-02-03 17:45:39,188 DEBUG   SenderThread:25130 [sender.py:send():90] send: summary
+2021-02-03 17:45:39,193 INFO    SenderThread:25130 [sender.py:_save_file():568] saving file wandb-summary.json with policy end
+2021-02-03 17:45:39,543 INFO    Thread-8  :25130 [dir_watcher.py:_on_file_modified():226] file/dir modified: /home/yuanchaoyi/TPlinker-joint-extraction/wandb/run-20210203_173752-2rkucosd/files/wandb-summary.json
+2021-02-03 17:45:39,544 INFO    Thread-8  :25130 [dir_watcher.py:_on_file_modified():226] file/dir modified: /home/yuanchaoyi/TPlinker-joint-extraction/wandb/run-20210203_173752-2rkucosd/files/output.log
+2021-02-03 17:45:40,545 INFO    Thread-8  :25130 [dir_watcher.py:_on_file_modified():226] file/dir modified: /home/yuanchaoyi/TPlinker-joint-extraction/wandb/run-20210203_173752-2rkucosd/files/output.log
+2021-02-03 17:45:41,545 INFO    Thread-8  :25130 [dir_watcher.py:_on_file_modified():226] file/dir modified: /home/yuanchaoyi/TPlinker-joint-extraction/wandb/run-20210203_173752-2rkucosd/files/output.log
+2021-02-03 17:45:43,547 INFO    Thread-8  :25130 [dir_watcher.py:_on_file_modified():226] file/dir modified: /home/yuanchaoyi/TPlinker-joint-extraction/wandb/run-20210203_173752-2rkucosd/files/output.log
+2021-02-03 17:45:44,548 INFO    Thread-8  :25130 [dir_watcher.py:_on_file_modified():226] file/dir modified: /home/yuanchaoyi/TPlinker-joint-extraction/wandb/run-20210203_173752-2rkucosd/files/output.log
+2021-02-03 17:45:44,624 DEBUG   SenderThread:25130 [sender.py:send():90] send: stats
+2021-02-03 17:45:45,317 DEBUG   HandlerThread:25130 [handler.py:handle_request():55] handle_request: status
+2021-02-03 17:45:45,317 DEBUG   SenderThread:25130 [sender.py:send():90] send: request
+2021-02-03 17:45:45,319 DEBUG   SenderThread:25130 [sender.py:send_request():99] send_request: status
+2021-02-03 17:45:45,325 DEBUG   SenderThread:25130 [connectionpool.py:_new_conn():975] Starting new HTTPS connection (1): api.wandb.ai:443
+2021-02-03 17:45:45,549 INFO    Thread-8  :25130 [dir_watcher.py:_on_file_modified():226] file/dir modified: /home/yuanchaoyi/TPlinker-joint-extraction/wandb/run-20210203_173752-2rkucosd/files/output.log
+2021-02-03 17:45:45,737 DEBUG   SenderThread:25130 [connectionpool.py:_make_request():461] https://api.wandb.ai:443 "POST /graphql HTTP/1.1" 200 None
+2021-02-03 17:45:46,550 INFO    Thread-8  :25130 [dir_watcher.py:_on_file_modified():226] file/dir modified: /home/yuanchaoyi/TPlinker-joint-extraction/wandb/run-20210203_173752-2rkucosd/files/output.log
+2021-02-03 17:45:47,551 INFO    Thread-8  :25130 [dir_watcher.py:_on_file_modified():226] file/dir modified: /home/yuanchaoyi/TPlinker-joint-extraction/wandb/run-20210203_173752-2rkucosd/files/output.log
+2021-02-03 17:45:48,552 INFO    Thread-8  :25130 [dir_watcher.py:_on_file_modified():226] file/dir modified: /home/yuanchaoyi/TPlinker-joint-extraction/wandb/run-20210203_173752-2rkucosd/files/output.log
+2021-02-03 17:45:49,553 INFO    Thread-8  :25130 [dir_watcher.py:_on_file_modified():226] file/dir modified: /home/yuanchaoyi/TPlinker-joint-extraction/wandb/run-20210203_173752-2rkucosd/files/output.log
+2021-02-03 17:45:50,107 DEBUG   SenderThread:25130 [sender.py:send():90] send: stats
+2021-02-03 17:45:50,527 DEBUG   SenderThread:25130 [sender.py:send():90] send: history
+2021-02-03 17:45:50,527 DEBUG   SenderThread:25130 [sender.py:send():90] send: summary
+2021-02-03 17:45:50,561 INFO    SenderThread:25130 [sender.py:_save_file():568] saving file wandb-summary.json with policy end
+2021-02-03 17:45:50,563 INFO    Thread-8  :25130 [dir_watcher.py:_on_file_modified():226] file/dir modified: /home/yuanchaoyi/TPlinker-joint-extraction/wandb/run-20210203_173752-2rkucosd/files/wandb-summary.json
+2021-02-03 17:45:50,563 INFO    Thread-8  :25130 [dir_watcher.py:_on_file_modified():226] file/dir modified: /home/yuanchaoyi/TPlinker-joint-extraction/wandb/run-20210203_173752-2rkucosd/files/output.log
+2021-02-03 17:45:52,565 INFO    Thread-8  :25130 [dir_watcher.py:_on_file_modified():226] file/dir modified: /home/yuanchaoyi/TPlinker-joint-extraction/wandb/run-20210203_173752-2rkucosd/files/output.log
+2021-02-03 17:45:53,566 INFO    Thread-8  :25130 [dir_watcher.py:_on_file_modified():226] file/dir modified: /home/yuanchaoyi/TPlinker-joint-extraction/wandb/run-20210203_173752-2rkucosd/files/output.log
+2021-02-03 17:45:54,566 INFO    Thread-8  :25130 [dir_watcher.py:_on_file_modified():226] file/dir modified: /home/yuanchaoyi/TPlinker-joint-extraction/wandb/run-20210203_173752-2rkucosd/files/output.log
+2021-02-03 17:45:55,567 INFO    Thread-8  :25130 [dir_watcher.py:_on_file_modified():226] file/dir modified: /home/yuanchaoyi/TPlinker-joint-extraction/wandb/run-20210203_173752-2rkucosd/files/output.log
+2021-02-03 17:45:55,654 DEBUG   SenderThread:25130 [sender.py:send():90] send: stats

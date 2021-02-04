@@ -1,0 +1,65 @@
+wandb_version: 1
+
+T_mult:
+  desc: null
+  value: 1
+_wandb:
+  desc: null
+  value:
+    cli_version: 0.10.12
+    framework: torch
+    huggingface_version: 3.4.0
+    is_jupyter_run: false
+    is_kaggle_kernel: false
+    python_version: 3.6.5
+batch_size:
+  desc: null
+  value: 25
+dist_emb_size:
+  desc: null
+  value: -1
+ent_add_dist:
+  desc: null
+  value: false
+epochs:
+  desc: null
+  value: 50
+inner_enc_type:
+  desc: null
+  value: lstm
+log_interval:
+  desc: null
+  value: 10
+loss_weight_recover_steps:
+  desc: null
+  value: 6000
+lr:
+  desc: null
+  value: 5.0e-05
+match_pattern:
+  desc: null
+  value: only_head_text
+max_seq_len:
+  desc: null
+  value: 100
+note:
+  desc: null
+  value: start from scratch
+rel_add_dist:
+  desc: null
+  value: false
+rewarm_epoch_num:
+  desc: null
+  value: 2
+scheduler:
+  desc: null
+  value: CAWR
+seed:
+  desc: null
+  value: 2333
+shaking_type:
+  desc: null
+  value: cat
+sliding_len:
+  desc: null
+  value: 20

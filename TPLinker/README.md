@@ -1,4 +1,4 @@
-#TPLINKER
+# TPLINKER
 TPLINKER注释版本，并适配了中文数据集<br>
 中文数据来源于百度关系抽取大赛<br>
 在preprocess路径下build_data_config.yaml中先配置数据源，注意ori_data_format因为用的自己的数据集所以为tplinker<br>
